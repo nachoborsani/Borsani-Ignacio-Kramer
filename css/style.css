@@ -1,0 +1,332 @@
+ *{
+    padding: 0;
+    margin: 0;}
+
+/*HEADER*/
+.titulo{
+    color:red;
+    font-family: 'Germania One', cursive;
+    font-size: 6rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1.5rem;
+    padding: 1;
+}
+.titulo2{
+    display: block;
+    line-height: 2rem;
+    font-size: 2rem;
+    padding: 1
+}
+.contenedor_logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 4rem;
+}
+header{background-color: black;
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    width: 30%;}
+.contenedor_titulo{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ul.navegacion{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;}
+    
+ul.navegacion li a{
+    text-decoration: none;
+    display: inline;
+    color: black;
+    font-family: 'Germania One', cursive;
+    padding: 1rem;
+    background-color: red;
+    border-radius: 70%;
+    border-style: inset;
+    border-color: white;
+    opacity: 1;
+}
+ul.navegacion li a:hover{
+border-color: yellow;
+opacity: 0.8;
+}
+ul.navegacion li a :visited{
+    color: black;
+}
+.navegacion li{list-style-type: none;}
+/* FINAL HEADER*/
+
+/*MAIN General*/
+
+main{padding-top: 8rem;
+    background-color: beige;}
+
+.subtitulos{text-align: center;
+        font-family: 'UnifrakturCook', cursive;
+        font-size: 4rem;
+        font-weight: 500;
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        display: block;}
+
+/*MAIN INDEX*/
+#mainindex{
+    display: block;
+}
+
+.maintexto {display: flex;
+flex-direction: column;}
+
+.imagenesindex{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenesindex img{border-radius: 5rem;
+padding: 0.1px}
+
+.fotoso2index{display: flex;}
+.fotos3index{padding-left: 0.2rem;
+padding-right: 0.1rem;}
+.fotos2index img{height: 26rem;}
+
+.imagen_larga img{  height: 11.50rem;
+    width: 35.5rem;
+}
+
+.fotos2_1_index img{height:  14.50rem;
+width: 17.50rem;}
+
+
+#frase{text-align: center;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 2.5rem;
+}
+
+.parrafos{    font-family: 'Germania One', cursive;
+font-size: 1.5rem;
+padding-left: 8rem;
+padding-right: 8rem;
+line-height: 1.8rem;}
+
+/*MAINCONTACTO*/
+
+.contenedor_contacto{display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding-bottom: 2.8rem;}
+
+.redescontacto{
+    display:flex;
+    flex-direction: column;}
+
+.redescontacto li{display: flex;
+list-style-type: none;
+justify-content: start;}
+
+.redescontacto li a{display: flex;
+align-items: center;
+padding-bottom: 3rem;}
+
+.redescontacto li p{
+    text-decoration: none;
+    color: black;
+    font-family: 'Germania One', cursive;
+    list-style-type: none;
+    font-size: 1.8rem;
+padding-left: 3rem;
+padding-right: 3rem;}
+
+.redescontacto li img{
+    width: 4rem;
+    height: 4rem;}
+
+
+/*MAINCPROMOCIONES*/
+
+.contenedor_promociones{display: flex;}
+
+/*MAINUBICACION*/
+.contenedor_ubicacion{display: flex;
+justify-content: space-evenly;
+padding-bottom: 5.75rem;}
+
+.datos_ubicacion{display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: start;}
+
+
+.datos_ubicacion div p {display: flex;
+    align-items: center;
+    color: black;
+    font-family: 'Germania One', cursive;
+    list-style-type: none;
+    font-size: 1.8rem;
+}
+.datos_ubicacion div img{padding-right: 5rem;}
+
+.datos_ubicacion div {display: flex;}
+#mapa{width: 4rem;
+height: 6rem;}
+#reloj{width: 4rem;
+height: 4rem;}
+
+
+/*FORMULARIO*/
+
+#tituloformulario{font-size: 1.5rem;}
+
+.contenedor_formulario{display: flex;
+flex-direction: column;
+}
+
+.contenedor_formulario div{color: black;
+    font-family: 'Germania One', cursive;
+    font-size: 1.8rem;
+    font-weight: 500;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.contenedor_formulario div input{ width: 16rem;
+height: 1.4rem;}
+
+#edad{ width: 4rem;}
+
+select{width: 25rem;
+height: 2rem;
+color: black;
+    font-family: 'Germania One', cursive;
+    font-size: 1rem;
+    font-weight: 500;}
+
+option{color: black;
+    font-family: 'Germania One', cursive;
+    font-size: 2rem;
+    font-weight: 500;}
+
+.botonesformulario{ display: flex;
+justify-content: center;}
+
+.botonesformulario input{margin-left: 2rem;
+margin-right: 2rem;}
+
+.redescontacto li a{list-style-type: none;
+    text-decoration: none;}
+
+/*BOTON WHATSAPP*/
+.conte_whatsapp{  
+    position: fixed;
+    bottom: 10rem;
+    right: 1rem;
+    border-style: dashed;
+    border-radius: 4rem;
+    border-color: red;   
+    margin: 10;
+    padding: 10;
+}
+.conte_whatsapp :hover
+{ background-color: yellow;
+opacity: 1;}
+
+.conte_whatsapp img{ 
+    border-radius: 6rem;   
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 0.4rem;
+    opacity: 0.5;
+    background-color: rgb(47, 190, 47);
+}
+/*BOTON WHATSAPP*/
+/*FOOTER*/
+footer{background-color: rgb(0, 0, 0);
+    padding: 0.65rem;
+    display: flex;
+    justify-content: space-between;}
+
+.logosredes a img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 4rem;
+    margin:1rem}
+
+.logosredes {display: flex;
+    align-items: flex-end;
+    width: 30%;}
+
+.formasdepago{width: 40%;}
+
+.c_formasdepago {display: flex;
+justify-content: space-around;
+align-items: center;}
+
+.c_formasdepago img{    
+    width: 4rem;
+    height: 3rem;
+    margin:1rem;
+    display: inline-block;}
+
+.formasdepago h3{
+    font-family: 'Germania One', cursive;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    color: red;
+}
+
+.c_sub{display: block;
+    width: 15%;}
+
+.c_sub h6{font-family: 'Germania One', cursive;
+    font-size: 2rem;
+    color: red;}
+    
+.c_sub form { display: flex;
+justify-content: center;
+padding-top: 1rem;}
+
+.campo{width: 15rem;
+height: 2rem;}
+
+h6{text-align: center;
+    color: white;}
+
+.derechos{
+width: 15%;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+padding-right: 1rem;}
+
+.derechos p{color: white;
+text-align: end;}
+
+
+
+
+
