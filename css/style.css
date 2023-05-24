@@ -19,7 +19,6 @@
     padding: 1
 }
 .contenedor_logo{
-    width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,19 +29,20 @@
     border-radius: 4rem;
 }
 header{background-color: black;
-    display: flex;
-    position: fixed;
+display: grid;
+grid-template-columns: 1fr 2fr 1fr;
     left: 0;
     top: 0;
     right: 0;
     margin: 0;
 }
-nav{
-    display: flex;
-    width: 30%;}
+
+.navbar-nav a{color: white;
+    font-family: 'Germania One', cursive;
+    background-color: red;
+    border-color: white;}
+
 .contenedor_titulo{
-    width: 40%;
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
