@@ -1,150 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kramer Almacen Cervezeria</title>
-        <link rel="shortcut icon" href="../imagenes/Logo-Kramer.jpg" type="image/x-icon">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../css/style.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kramer Almacen Cervezeria</title>
+    <link rel="shortcut icon" href="./imagenes/Logo-Kramer.jpg" type="image/x-icon">
+    <!--Fuentes Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
 <body>
-    <header class="header">
+    <header>
         <div class="contenedor_logo">
-        <a href="/index.html">
-            <img src="../imagenes/Logo-Kramer.jpg" class="logo" alt="logo">
-        </a>
+            <a href="/index.html">
+                <img src="../imagenes/Logo-Kramer.jpg" class="logo" alt="logo">
+            </a>
         </div>
         <div class="contenedor_titulo">
-            <h1 class="titulo">Krämer
-                <span class="titulo2">Almacén Cervecero</span>
+            <h1 class="font-weight-bold text-danger" id="titulo">Krämer
+                <span id="titulo2">Almacén Cervecero</span>
             </h1>
         </div>
-        <nav>
-            <ul class="navegacion">
-                <li><a href="../index.html">Inicio</a>
-                </li>
-                <li><a href="./menu.html">Menu</a>
-                </li>
-                <li><a href="./promociones.html">Promociones</a>
-                </li>
-                <li><a href="./ubicacion.html">Ubicacion</a>
-                </li>
-                <li><a href="./contacto.html">Contacto</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="BaraNAV">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/Pages/menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Pages/promociones.html">Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Pages/ubicacion.html">Ubicacion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    <main>
-        <h2 class="subtitulos">Contacto</h2>
-        <div class="contenedor_contacto">
-            <ul class="redescontacto">
-                    <li>
-                    <a href="tel:116845946">
-                    <img src="../imagenes/Telefono.png" alt="icono_telefono">
-                    <p>+549116845946</p>
-                    </a>
-                    <a href="https://api.whatsapp.com/send/?phone=5491168459469&text&type=phone_number&app_absent=0">
-                    <img src="../imagenes/Logo Whatsapp.png" alt="whatsapp">
-                    </a>
-                    </li>
-                    <li>            
-                    <a href="mailto:"kramer.almacen.cervecero@gmail.com>
-                    <img src="../imagenes/LOGO MAIL.png" alt="logo_mail">
-                    <p>kramer.almacen.cervecero@gmail.com</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/krameralmacencervecero/">
-                    <img src="../imagenes/LOGO INSTAGRAM.png" alt="logo_instagram">
-                    <p>/krameralmacencervecero</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/Kramer.Almacen.Cervecero/">
-                    <img src="../imagenes/Logo Facebook.png" alt="logo_Facebook">
-                    <p>/Kramer.Almacen.Cervecero</p>
-                    </a>
-                </li>
-            </ul>
-            <form class="contenedor_formulario">
-                <fieldset>
-                    <legend id="tituloformulario">Formulario de contacto</legend>
-                    <div>            
-                        <label for="nombre">Nombre(*)</label>
-                        <input type="text" id="nombre" required>
-                        <label for="apellido">Apellido(*)</label>
-                        <input type="text" id="apellido" required>
-                        <label id="edad" for="edad">Edad</label>
-                        <input type="number" id="edad" required>
-                    </div>
-                    <div>            
-                        <label for="email">Email(*)</label>
-                        <input type="email" id="email" >
-                    </div>
-                    <div>
-                        <label for="telefono">Telefono(*)</label>
-                        <input type="tel" id="telefono" required>
-                    </div>
-                    <div>
-                        <p>Motivo de contacto:</p>
-                        <select class="asunto">
-                            <option value="otro">Otras Consultas</option>
-                            <option value="cv">Quiero enviar mi CV</option>
-                            <option value="ventaxmayor">Quiero Comprar al Mayor</option>
-                            <option value="ofrecer">Ofrecer Producto</option>
-                            <option value="venta">Quiero Comprar</option>
-                        </select>
-                    </div>
-                    <div>
-                    <textarea name="textocontacto" id="" cols="30" rows="10" required></textarea>
-                    </div>
-                    <input type="file">
-                </fieldset>
-                <div class="botonesformulario">
-                <input type="reset" value="Borrar Todo">
-                <input type="submit" value="Enviar">
+    <main id="contactomain">
+        <h2 id="subtitulocontacto">Contacto</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6" id="contenedor_datos">
+                    <ul class="redescontacto">
+                        <li>
+                            <a href="tel:116845946">
+                                <img src="../imagenes/Telefono.png" alt="icono_telefono">
+                                <p>+549116845946</p>
+                            </a>
+                            <a
+                                href="https://api.whatsapp.com/send/?phone=5491168459469&text&type=phone_number&app_absent=0">
+                                <img src="../imagenes/Logo Whatsapp.png" alt="whatsapp">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:" kramer.almacen.cervecero@gmail.com>
+                                <img src="../imagenes/LOGO MAIL.png" alt="logo_mail">
+                                <p>kramer.almacen.cervecero@gmail.com</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/krameralmacencervecero/">
+                                <img src="../imagenes/LOGO INSTAGRAM.png" alt="logo_instagram">
+                                <p>/krameralmacencervecero</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/Kramer.Almacen.Cervecero/">
+                                <img src="../imagenes/Logo Facebook.png" alt="logo_Facebook">
+                                <p>/Kramer.Almacen.Cervecero</p>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            </form>
-        </div>
-    </main>
-    <footer class="footer">    
-        <div class="logosredes">
-            <a href="https://www.instagram.com/krameralmacencervecero/">
-            <img src="../imagenes/LOGO INSTAGRAM.png" alt="instagram">
-            </a>
-            <a href="https://api.whatsapp.com/send/?phone=5491168459469&text&type=phone_number&app_absent=0">
-            <img src="../imagenes/Boton Whatsapp.png"  alt="whatsapp">
-            </a>
-            <a href="https://www.facebook.com/Kramer.Almacen.Cervecero/">
-            <img src="../imagenes/Logo Facebook.png"  alt="facebook">
-            </a>
-        </div>
-        <div class="formasdepago">
-            <h3>Formas de pago</h3>
-            <div class="c_formasdepago">
-                <img src="../imagenes/amex.png"  alt="amex">
-                <img src="../imagenes/mastercard.png"  alt="mastercard">
-                <img src="../imagenes/VISA.png"  alt=" VISA">
-                <img src="../imagenes/mercadopago.png"  alt="mercadopago">
-                <img src="../imagenes/efectivo.png"  alt="efectivo">
+                <form class="col-lg-6 col-md-6 col-sm-12">
+                    <fieldset>
+                        <legend id="tituloformulario">Formulario de contacto</legend>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-4">
+                                    <label for="nombre">Nombre(*)</label>
+                                    <input type="text" id="nombre" required>
+                                </div>
+                                <div class="col-4">
+                                    <label for="apellido">Apellido(*)</label>
+                                    <input type="text" id="apellido" required>
+                                </div>
+                                <div class="col-1">
+                                    <label id="edad" for="edad">Edad</label>
+                                    <input type="number" id="edad" required>
+                                </div>
+                                <div class="col-5">
+                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com">
+                                </div>
+                                <div class="col-5 col align-self-center">
+                                    <label for="telefono">Telefono(*)</label>
+                                    <input type="tel" id="telefono" required>
+                                </div>
+                                <div>
+                                    <div class="col-6">
+                                        <p>Motivo de contacto:</p>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Quiero Comprar</option>
+                                            <option value="otro">Otras Consultas</option>
+                                            <option value="cv">Quiero enviar mi CV</option>
+                                            <option value="ventaxmayor">Quiero Comprar al Mayor</option>
+                                            <option value="ofrecer">Ofrecer Producto</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Escribi Aqui</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="formFile" class="form-label">Default file input example</label>
+                                    <input class="form-control" type="file" id="formFile">
+                                </div>
+                                <div class="botonesformulario">
+                                    <input type="reset" value="Borrar Todo">
+                                    <input type="submit" value="Enviar">
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
             </div>
         </div>
-        <div class="c_sub">
-            <h6>Suscribite a las novedades</h6>
-            <form action="">
-            <input class="campo" type="email" id="email" placeholder="ingrese su mail">
-            </form>
-        </div>
-        <div class="derechos">
-            <p>© 2023 Ignacio Borsani Derechos Reservados</p>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md" id="logosredes">
+                    <a href="https://www.instagram.com/krameralmacencervecero/">
+                        <img src="../imagenes/LOGO INSTAGRAM.png" alt="instagram">
+                    </a>
+                    <a href="https://api.whatsapp.com/send/?phone=5491168459469&text&type=phone_number&app_absent=0">
+                        <img src="../imagenes/Boton Whatsapp.png" alt="whatsapp">
+                    </a>
+                    <a href="https://www.facebook.com/Kramer.Almacen.Cervecero/">
+                        <img src="../imagenes/Logo Facebook.png" alt="facebook">
+                    </a>
+                </div>
+                <div class="col-md" id="formasdepago">
+                    <h3>Formas de pago</h3>
+                    <div id="c_formasdepago">
+                        <img src="../imagenes/amex.png" alt="amex">
+                        <img src="../imagenes/mastercard.png" alt="mastercard">
+                        <img src="../imagenes/VISA.png" alt=" VISA">
+                        <img src="../imagenes/mercadopago.png" alt="mercadopago">
+                        <img src="../imagenes/efectivo.png" alt="efectivo">
+                    </div>
+                </div>
+                <div class="col-md" id="c_sub">
+                    <h6>Suscribite a las novedades</h6>
+                    <form action="">
+                        <input class="campo" type="email" id="email" placeholder="ingrese su mail">
+                    </form>
+                </div>
+            </div>
+            <div class="col-md" id="derechos">
+                <p>© 2023 Ignacio Borsani Derechos Reservados</p>
+            </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

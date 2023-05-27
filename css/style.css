@@ -60,7 +60,7 @@ height: 1.2rem!important;}
 /*MAIN General*/
 
 main{padding-top: 0.2rem;
-    background-color: beige;}
+    background-color: beige !important;}
 
 .subtitulos{text-align: center;
         font-family: 'UnifrakturCook', cursive;
@@ -170,35 +170,77 @@ margin-bottom: 2rem;
 
 /*MAINCONTACTO*/
 
-.contenedor_contacto{display: flex;
-justify-content: space-evenly;
-align-items: center;
-padding-bottom: 2.8rem;}
+#subtitulocontacto{padding: 2.9rem;
+    text-align: center;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 4rem;
+    font-weight: 300;
+    display: block;}
 
-.redescontacto{
-    display:flex;
-    flex-direction: column;}
-
-.redescontacto li{display: flex;
-list-style-type: none;
-justify-content: start;}
-
-.redescontacto li a{display: flex;
-align-items: center;
+#contactomain{padding-top: 2rem;
 padding-bottom: 3rem;}
 
+#contenedor_datos{display: flex;
+    justify-content: center !important;
+align-items: center !important;}
+.redescontacto li{display: flex;
+list-style-type: none;
+justify-content: start;
+align-items: center !important;}
+
+.redescontacto li a{display: flex !important;
+align-items: center !important;
+padding-bottom: 0rem;}
+
 .redescontacto li p{
+    text-align: center !important;
     text-decoration: none;
     color: black;
     font-family: 'Germania One', cursive;
     list-style-type: none;
-    font-size: 1.8rem;
-padding-left: 3rem;
-padding-right: 3rem;}
+    font-size: 1.4rem;}
 
 .redescontacto li img{
     width: 4rem;
     height: 4rem;}
+    
+
+    @media screen and (max-width: 575px) {
+input{display: inline-block;
+width: 6rem;}
+
+#subtitulocontacto{padding: 0rem !important;
+}
+#contactomain{padding-top: 0rem;
+    padding-bottom: 0rem;}
+    }
+
+
+.redescontacto li p{
+    font-size: 2rem;}
+
+    .redescontacto li img{
+        width: 2rem;
+        height: 2rem;}
+
+  @media screen and (max-width: 767px){
+    #subtitulocontacto{padding: 0rem !important;
+    }
+    #contactomain{padding-top: 0rem;
+        padding-bottom: 0rem;}
+        }
+
+        @media screen and (max-width: 1200px){
+            #contactomain{padding-top: 1rem;
+                padding-bottom: 1rem;}
+                
+.redescontacto li p{
+                font-size: 1.8rem;}
+                
+
+
+
+}
 
 
 /*MAINCPROMOCIONES*/
@@ -236,25 +278,7 @@ height: 4rem;}
 
 #tituloformulario{font-size: 1.5rem;}
 
-.contenedor_formulario{display: flex;
-flex-direction: column;
-}
-
-.contenedor_formulario div{color: black;
-    font-family: 'Germania One', cursive;
-    font-size: 1.8rem;
-    font-weight: 500;
-    align-items: center;
-    padding: 0.5rem;
-}
-
-.contenedor_formulario div input{ width: 16rem;
-height: 1.4rem;}
-
-#edad{ width: 4rem;}
-
-select{width: 25rem;
-height: 2rem;
+select{
 color: black;
     font-family: 'Germania One', cursive;
     font-size: 1rem;
@@ -265,11 +289,8 @@ option{color: black;
     font-size: 2rem;
     font-weight: 500;}
 
-.botonesformulario{ display: flex;
-justify-content: center;}
-
-.botonesformulario input{margin-left: 2rem;
-margin-right: 2rem;}
+.botonesformulario input{margin-left: 0.5rem;
+margin-right: 0.5rem;}
 
 .redescontacto li a{list-style-type: none;
     text-decoration: none;}
