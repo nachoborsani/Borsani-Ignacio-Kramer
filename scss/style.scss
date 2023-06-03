@@ -1,8 +1,12 @@
+@import "../scss/btnwhatsapp";
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     }
+
+    
 /*HEADER*/
 
 .contenedor_titulo{display: flex;
@@ -367,6 +371,7 @@ height: 2rem;}
 h6{text-align: center;
     color: white;}
 
+
 #derechos{
 display: flex;
 justify-content: flex-end;
@@ -375,4 +380,6 @@ align-items: flex-end;}
 #derechos p{color: white;
 text-align: end;
 font-size: xx-small;}
+
+
 
