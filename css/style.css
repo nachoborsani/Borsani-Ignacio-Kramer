@@ -4,6 +4,30 @@
   box-sizing: border-box;
 }
 
+.conte_whatsapp {
+  position: fixed;
+  bottom: 10rem;
+  right: 1rem;
+  border-style: dashed;
+  border-radius: 4rem;
+  border-color: red;
+  margin: 10;
+  padding: 10;
+}
+.conte_whatsapp:hover {
+  background-color: yellow;
+  opacity: 1;
+}
+.conte_whatsapp img {
+  border-radius: 6rem;
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.4rem;
+  opacity: 0.5;
+  background-color: rgb(47, 190, 47);
+}
+
 /*HEADER*/
 .contenedor_titulo {
   display: flex;
@@ -191,92 +215,121 @@ main {
 }
 /*MAINCONTACTO*/
 #subtitulocontacto {
-  padding: 2.9rem;
   text-align: center;
   font-family: "UnifrakturCook", cursive;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 300;
   display: block;
 }
 
 #contactomain {
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 #contenedor_datos {
   display: flex;
-  justify-content: center !important;
-  align-items: center !important;
+  justify-content: center;
 }
 
-.redescontacto li {
+#edad {
+  width: 3rem;
+}
+
+ul.redescontacto {
   display: flex;
-  list-style-type: none;
-  justify-content: start;
-  align-items: center !important;
+  padding: 0rem;
+  flex-direction: column;
 }
-
-.redescontacto li a {
-  display: flex !important;
-  align-items: center !important;
-  padding-bottom: 0rem;
+ul.redescontacto li {
+  display: flex;
 }
-
-.redescontacto li p {
-  text-align: center !important;
+ul.redescontacto li a {
+  display: flex;
+}
+ul.redescontacto li a img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+ul.redescontacto li a p {
   text-decoration: none;
   color: black;
   font-family: "Germania One", cursive;
   list-style-type: none;
-  font-size: 1.4rem;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
 }
 
-.redescontacto li img {
-  width: 4rem;
-  height: 4rem;
+/*CONTACTO CELULAR GRANDE*/
+@media screen and (min-width: 475px) {
+  ul.redescontacto li a img {
+    width: 2rem;
+    height: 2rem;
+  }
+  ul.redescontacto li a p {
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
-
-@media screen and (max-width: 575px) {
+/*CONTACTO TABLET GRANDE*/
+@media screen and (min-width: 768px) {
   input {
-    display: inline-block;
     width: 6rem;
   }
-  #subtitulocontacto {
-    padding: 0rem !important;
+  ul.redescontacto {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+  }
+  ul.redescontacto li {
+    text-align: center;
+  }
+  ul.redescontacto li a img {
+    width: 2rem;
+    height: 2rem;
+  }
+  ul.redescontacto li a p {
+    font-size: 1.4rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   #contactomain {
-    padding-top: 0rem;
-    padding-bottom: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+  }
+  #subtitulocontacto {
+    padding-bottom: 3.4rem;
+  }
+  #tituloformulario {
+    padding-bottom: 1.5rem;
   }
 }
-.redescontacto li p {
-  font-size: 2rem;
+/*CONTACTO DESK*/
+@media (min-width: 1200px) {
+  #subtitulocontacto {
+    font-size: 5rem;
+  }
+  #contactomain {
+    padding-top: 2.1rem;
+    padding-bottom: 2.5rem;
+  }
+  ul.redescontacto li a img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+  }
+  ul.redescontacto li a p {
+    font-size: 2.2rem;
+  }
+}
+input {
+  display: inline-block;
+  width: 9rem;
 }
 
-.redescontacto li img {
-  width: 2rem;
-  height: 2rem;
-}
-
-@media screen and (max-width: 767px) {
-  #subtitulocontacto {
-    padding: 0rem !important;
-  }
-  #contactomain {
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-  }
-}
-@media screen and (max-width: 1200px) {
-  #contactomain {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .redescontacto li p {
-    font-size: 1.8rem;
-  }
-}
 /*MAINCPROMOCIONES*/
 .contenedor_promociones {
   display: flex;
@@ -352,32 +405,6 @@ option {
   text-decoration: none;
 }
 
-/*BOTON WHATSAPP*/
-.conte_whatsapp {
-  position: fixed;
-  bottom: 10rem;
-  right: 1rem;
-  border-style: dashed;
-  border-radius: 4rem;
-  border-color: red;
-  margin: 10;
-  padding: 10;
-}
-.conte_whatsapp:hover {
-  background-color: yellow;
-  opacity: 1;
-}
-.conte_whatsapp img {
-  border-radius: 6rem;
-  display: block;
-  width: 2rem;
-  height: 2rem;
-  padding: 0.4rem;
-  opacity: 0.5;
-  background-color: rgb(47, 190, 47);
-}
-
-/*BOTON WHATSAPP*/
 /*FOOTER*/
 footer {
   background-color: rgb(0, 0, 0);
