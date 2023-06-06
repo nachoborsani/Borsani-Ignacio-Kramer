@@ -1,0 +1,84 @@
+/*HEADER*/
+
+.contenedor_titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo {
+    font-family: 'Germania One', cursive;
+    font-size: 2.2rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    -webkit-text-stroke: 0.07rem black;
+}
+
+#titulo2 {
+    display: block;
+    line-height: 1rem;
+    font-size: 1.5rem;
+    padding: 0.5;
+}
+
+.contenedor_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 100%;
+    height: 3.5rem;
+    border-radius: 8rem;
+}
+
+header {
+    background-image: url(/imagenes/Encabezado2.jpg) !important;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.nav-link {
+    font-family: 'Germania One', cursive;
+    color: red;
+    font-size: 0.7rem;
+    text-align: right;
+}
+
+.nav-link:hover {
+    color: yellow !important;
+    opacity: 0.8 !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+
+    background-color: rgb(202, 10, 10);
+}
+
+.navbar-toggler-icon {
+    width: 1.2rem !important;
+
+    height: 1.2rem !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none
+}
+
+/*MAIN GENERAL*/
+
+main {
+    padding-top: 0.2rem;
+    background-color: beige !important;
+}
+
+.subtitulos {
+    text-align: center;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 1.5rem;
+    font-weight: 300;
+    display: block;
+}

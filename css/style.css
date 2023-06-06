@@ -95,8 +95,7 @@ header {
   box-shadow: none;
 }
 
-/* FINAL HEADER*/
-/*MAIN General*/
+/*MAIN GENERAL*/
 main {
   padding-top: 0.2rem;
   background-color: beige !important;
@@ -213,6 +212,23 @@ main {
     padding-right: 1.5rem;
   }
 }
+/*MAINMENU*/
+.producto img {
+  width: 6rem;
+  height: 10rem;
+}
+
+.producto {
+  border-radius: 9rem;
+  background-color: rgb(243, 232, 133);
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 /*MAINCONTACTO*/
 #subtitulocontacto {
   text-align: center;

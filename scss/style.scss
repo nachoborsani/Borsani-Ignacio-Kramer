@@ -1,225 +1,24 @@
 @import "../scss/reset";
 @import "../scss/btnwhatsapp";
+@import "../scss/general";
+@import "../scss/index";
 
 
-/*HEADER*/
+/*MAINMENU*/
+.producto img{width: 6rem;
+height: 10rem;}
 
-.contenedor_titulo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#titulo {
-    font-family: 'Germania One', cursive;
-    font-size: 2.2rem;
-    font-weight: 300;
-    text-align: center;
-    letter-spacing: 0.5rem;
-    -webkit-text-stroke: 0.07rem black;
-}
-
-#titulo2 {
-    display: block;
-    line-height: 1rem;
-    font-size: 1.5rem;
-    padding: 0.5;
-}
-
-.contenedor_logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.logo {
-    width: 100%;
-    height: 3.5rem;
-    border-radius: 8rem;
-}
-
-header {
-    background-image: url(/imagenes/Encabezado2.jpg) !important;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-}
-
-.nav-link {
-    font-family: 'Germania One', cursive;
-    color: red;
-    font-size: 0.7rem;
-    text-align: right;
-}
-
-.nav-link:hover {
-    color: yellow !important;
-    opacity: 0.8 !important;
-}
-
-.navbar-toggler {
-    border: none !important;
-
-    background-color: rgb(202, 10, 10);
-}
-
-.navbar-toggler-icon {
-    width: 1.2rem !important;
-
-    height: 1.2rem !important;
-}
-
-.navbar-toggler:focus {
-    box-shadow: none
+.producto{border-radius: 9rem;
+background-color: rgb(243, 232, 133);
+padding: 1rem;
+margin-left: 1rem;
+margin-right: 1rem;
+display: flex;
+flex-direction: column;
+text-align: center;
 }
 
 
-/* FINAL HEADER*/
-
-/*MAIN General*/
-
-main {
-    padding-top: 0.2rem;
-    background-color: beige !important;
-}
-
-.subtitulos {
-    text-align: center;
-    font-family: 'UnifrakturCook', cursive;
-    font-size: 1.5rem;
-    font-weight: 300;
-    display: block;
-}
-
-/*MAIN INDEX*/
-
-
-
-#frase {
-    text-align: center;
-    font-family: 'UnifrakturCook', cursive;
-    font-size: 1rem;
-}
-
-.parrafos {
-    font-family: 'Germania One', cursive;
-    font-size: 0.75rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-
-    p {
-        margin: 0.2rem;
-    }
-}
-
-
-#imagenesindex img {
-    width: 100%;
-    height: 20rem;
-}
-
-#imagenesindex .col-lg-2 {
-    padding: 0.3rem !important;
-}
-
-
-/*MAIN CELULAR GRANDE*/
-
-@media screen and (max-width: 575px) {
-    #imagenesindex img {
-        width: 18rem;
-        height: 18rem;
-    }
-
-    #imagenesindex .row .col-lg-2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-/*MAIN TABLET GRANDE*/
-@media screen and (min-width: 767px) {
-    .parrafos {
-        font-size: 1rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-    }
-
-    .subtitulos {
-        font-size: 3rem;
-    }
-
-    #titulo {
-        font-size: 4rem;
-        letter-spacing: 0.5rem;
-        -webkit-text-stroke: 0.12rem black;
-    }
-
-    #titulo2 {
-        font-size: 2rem;
-    }
-
-    #frase {
-        font-size: 1.5rem;
-    }
-
-    .logo {
-        height: 6rem;
-        border-radius: 8rem;
-    }
-
-    .nav-link {
-        font-size: 0.8rem;
-    }
-
-
-}
-
-/*MAIN DESK*/
-@media screen and (min-width: 991px) {
-    #imagenesindex img {
-        width: 100%;
-        height: 20rem;
-        padding-bottom: 4rem;
-    }
-
-    .nav-link {
-        font-size: 0.8rem;
-        font-weight: 300;
-    }
-
-    li .nav-link {
-        padding: 0.2rem !important;
-    }
-
-    #piedepagina {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
-
-    #frase {
-        font-size: 1.5rem;
-        margin-top: 3rem;
-    }
-
-    .subtitulos {
-        margin-bottom: 2rem;
-    }
-
-}
-
-@media screen and (min-width: 991px) {
-    .subtitulos {
-        margin-top: 1rem;
-    }
-
-    .parrafos {
-        font-size: 1rem;
-        padding-left: 2rem;
-        padding-right: 1.5rem;
-    }
-
-}
 
 /*MAINCONTACTO*/
 
@@ -240,8 +39,6 @@ main {
     display: flex;
     justify-content: center;
 }
-
-
 
 #edad {
     width: 3rem;
