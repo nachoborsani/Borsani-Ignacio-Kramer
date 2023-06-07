@@ -1,33 +1,77 @@
 @import "../scss/reset";
+@import "../scss/variables";
 @import "../scss/btnwhatsapp";
 @import "../scss/general";
+@import "../scss/navbar";
 @import "../scss/index";
 
 
-/*MAINMENU*/
-.producto img{width: 6rem;
-height: 10rem;}
 
-.producto{border-radius: 9rem;
-background-color: rgb(243, 232, 133);
-padding: 1rem;
-margin: 1rem;
+/*MAINMENU*/
+
+.producto{
+    border-radius: 10rem;
+background-color: $cmostaza;
+padding-top: 1rem;
+margin-top: 0.5rem;
+margin-bottom: 0.5rem;
 display: flex;
 flex-direction: column;
 text-align: center;
+        img{width: 4rem;
+            height: 6rem;}
+        h5{ font-family: 'Germania One', cursive;
+            font-size: 1.5rem;}
 }
 
+.producto2{    border-radius: 10rem;
+    background-color: $cmostaza;
+    padding-top: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+            img{width: 4rem;
+                height: 12rem;} 
+                h5{ font-family: 'Germania One', cursive;
+                    font-size: 1.5rem;}
+    }
+
+.producto3{ border-radius: 10rem;
+    background-color: $cmostaza;
+    padding-top: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+            img{width: 10rem;
+                height: 10rem;}
+    }
+
+
+.opcionesmenu{ display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    li{display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $cmostaza;
+        border: 2px solid #681919;
+        margin: 0.2rem;
+        padding: 0.2rem;
+    border-radius: 2rem;}
+a{text-decoration: none;
+color: black;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}}
 
 
 /*MAINCONTACTO*/
 
-#subtitulocontacto {
-    text-align: center;
-    font-family: 'UnifrakturCook', cursive;
-    font-size: 3rem;
-    font-weight: 300;
-    display: block;
-}
 
 #contactomain {
     padding-top: 1rem;
@@ -140,8 +184,8 @@ padding-bottom: 3.4rem;
     }
 
     #contactomain {
-        padding-top: 2.1rem;
-        padding-bottom: 2.5rem;
+        padding-top: 3.1rem;
+        padding-bottom: 3rem;
     }
 
 

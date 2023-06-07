@@ -1,0 +1,38 @@
+.nav-link {
+    font-family: 'Germania One', cursive;
+    color: red;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.nav-link:hover {
+    color: yellow !important;
+    opacity: 0.8 !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+
+    background-color: rgb(202, 10, 10);
+}
+
+.navbar-toggler-icon {
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none
+}
+
+/*NAV TABLET GRANDE*/
+@media screen and (min-width: 767px) {.nav-link {
+    font-size: 0.8rem;
+}}
+
+/*NAVDESK*/
+@media screen and (min-width: 991px) {    .nav-link {
+    font-size: 1.6rem;
+    font-weight: 300;
+    -webkit-text-stroke: 0.07rem black;
+}}

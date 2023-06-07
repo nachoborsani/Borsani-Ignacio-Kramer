@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kramer Almacen Cervezeria</title>
-    <link rel="shortcut icon" href="./imagenes/Logo-Kramer.jpg" type="image/x-icon">
+    <title>Menu</title>
+    <link rel="shortcut icon" href="../imagenes/Logo-Kramer.jpg" type="image/x-icon">
     <!--Fuentes Google-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -61,11 +61,15 @@
     </header>
     <main>
         <h2 class="subtitulos">Menu</h2>
-        <ul>
-            <li>CERVEZA ARTESANAL LATA</li>
-            <LI>CERVEZA IMPORTADA</LI>
-            <LI>CERVEZA TIRADA</LI>
+        <ul class="opcionesmenu">
+            <li><a href="#artesanal">CERVEZA ARTESANAL LATA</a>
+            </li>
+            <li><a href="#importada">CERVEZA IMPORTADA BOTELLA</a>
+            </li>
+            <li><a href="#tirada">CERVEZA TIRADA</a>
+            </li>
         </ul>
+        <a name="artesanal"></a>
         <h3>CERVEZA ARTESANAL LATA</h3>
         <section class="container">
             <div class="row">
@@ -77,85 +81,105 @@
                     <p>$750</p>
                 </article>
                 <article class="col-lg-2 col-md-3 producto">
-                    <img src="../imagenes/MUR CASI HAWAII PALE LAGER.png" class="card-img-top mx-auto d-block" alt="mur_casi_hawaii">
-                    <h5>MUR CASI HAWAII PALE LAGER</h5>
+                    <img src="../imagenes/MUR CASI HAWAII PALE LAGER.png" class="card-img-top mx-auto d-block"
+                        alt="mur_casi_hawaii">
+                    <h5>MUR CASI HAWAII
+                    <br>
+                    PALE LAGER</h5></h5>
                     <p>$660</p>
                 </article>
                 <article class="col-lg-2 col-md-3 producto">
                     <img src="../imagenes/GANTE IPL.png" class="card-img-top mx-auto d-block" alt="gante_ipl">
-                    <h5>GANTE 
+                    <h5>GANTE
                         <br>IPL</br>
                     </h5>
                     <p>$550</p>
                 </article>
                 <article class="col-lg-2 col-md-3  producto">
-                    <img src="../imagenes/MANUSH MILK STOUT.png" class="card-img-top mx-auto d-block" alt="manush_milk_stout">
+                    <img src="../imagenes/MANUSH MILK STOUT.png" class="card-img-top mx-auto d-block"
+                        alt="manush_milk_stout">
                     <h5>MANUSH MILK STOUT</h5>
                     <p>$750</p>
                 </article>
                 <article class="col-lg-2 col-md-3  producto">
                     <img src="../imagenes/MUR SOLO PILS.png" class="card-img-top mx-auto d-block" alt="mur_solo_pils">
-                    <h5>MUR SOLO 
+                    <h5>MUR SOLO
                         <br>IPL</br>
                     </h5>
                     <p>$$660</p>
                 </article>
             </div>
         </section>
-        <section class="menu">
-            <h3>CERVEZA IMPORTADA
-                <span>Botella 330cc</span>
-            </h3>
-            <article>
-                <img src="../imagenes/DOMUS SUMMA SCOTCH HONEY.png" alt="domus_summa_scoth">
-                <h4>DOMUS SUMMA SCOTCH HONEY</h4>
-                <p>$315</p>
-            </article>
-            <Article>
-                <img src="../imagenes/DOMUS AUREA IPA.png" alt="domusaureaipa">
-                <h4>DOMUS AUREA IPA</h4>
-                <P>315</P>
-            </Article>
-            <article>
-                <img src="../imagenes/LANDVIK LAGER.png" alt="landviklager">
-                <h4>LANDVIK LAGER</h4>
-                <p>$200</p>
-            </article>
-            <img src="../imagenes/BLUE MOON.png" alt="bluemoon">
-            <h4>BLUE MOON</h4>
-            <P>$410</P>
+        <a name="importada"></a>
+        <h3>CERVEZA IMPORTADA
+            <span>Botella 330cc</span>
+        </h3>
+        <section class="container">
+            <div class="row">
+                <article class="col-lg-2 col-md-3   producto2">
+                    <img src="../imagenes/DOMUS SUMMA SCOTCH HONEY.png" class="card-img-top mx-auto d-block"
+                        alt="domus_summa_scoth">
+                    <h5>DOMUS SUMMA SCOTCH 
+                        <br>
+                        HONEY</h5></h5>
+                    <p>$315</p>
+                </article>
+                <article class="col-lg-2 col-md-3   producto2">
+                    <img src="../imagenes/DOMUS AUREA IPA.png" class="card-img-top mx-auto d-block" alt="domusaureaipa">
+                    <h5>DOMUS AUREA IPA</h5>
+                    <P>$315</P>
+                </Article>
+                <article class="col-lg-2 col-md-3   producto2">
+                    <img src="../imagenes/LANDVIK LAGER.png" class="card-img-top mx-auto d-block" alt="landviklager">
+                    <h5>LANDVIK LAGER</h5>
+                    <p>$200</p>
+                </article>
+                <article class="col-lg-2 col-md-3   producto2">
+                    <img src="../imagenes/BLUE MOON.png" class="card-img-top mx-auto d-block" alt="bluemoon">
+                    <h5>BLUE MOON</h5>
+                    <P>$410</P>
+                </article>
+            </div>
         </section>
-        <section class="menu">
-            <H3>CERVEZA TIRADA
-                <SPAN>(+$100 PET)</SPAN>
-            </H3>
-            <article>
-                <img src="../imagenes/logo buko.png" alt="logo_buko">
-                <h4>CARGA 1L DOBLE RED IPA</h4>
-                <p>$750</p>
-            </article>
-            <article>
-                <img src="../imagenes/suburbier logo.png" alt="logo_suburbier">
-                <h4>CARGA 1L NEIPA</h4>
-                <p>$750</p>
-            </article>
-            <article>
-                <img src="../imagenes/GANTE PNG.png" alt="logo_gante">
-                <h4>CARGA 1L PILSEN</h4>
-                <p>$750</p>
-            </article>
-            <article>
-                <img src="../imagenes/GANTE PNG.png" alt="logo_gante">
-                <h4>CARGA 1L IPA</h4>
-                <p>$750</p>
-            </article>
-            <article>
-                <img src="../imagenes/logo kraken.png" alt="logo_kraken">
-                <h4>CARGAR 1L STOUT</h4>
-                <p>$750</p>
-            </article>
+        <a name="tirada"></a>
+        <H3>CERVEZA TIRADA
+            <SPAN>(+$100 PET)</SPAN>
+        </H3>
+        <section class="container">
+            <div class="row">
+                <article class="col-lg-2 col-md-3  producto3">
+                    <img src="../imagenes/logo buko.png" class="card-img-top mx-auto d-block" alt="logo_buko">
+                    <h5>CARGA 1L DOBLE RED IPA</h5>
+                    <p>$750</p>
+                </article>
+                <article class="col-lg-2 col-md-3  producto3">
+                    <img src="../imagenes/suburbier logo.png" class="card-img-top mx-auto d-block" alt="logo_suburbier">
+                    <h5>CARGA 1L NEIPA</h5>
+                    <p>$750</p>
+                </article>
+                <article class="col-lg-2 col-md-3  producto3">
+                    <img src="../imagenes/GANTE PNG.png" class="card-img-top mx-auto d-block" alt="logo_gante">
+                    <h5>CARGA 1L PILSEN</h5>
+                    <p>$750</p>
+                </article>
+                <article class="col-lg-2 col-md-3  producto3">
+                    <img src="../imagenes/GANTE PNG.png" class="card-img-top mx-auto d-block" alt="logo_gante">
+                    <h5>CARGA 1L IPA</h5>
+                    <p>$750</p>
+                </article>
+                <article class="col-lg-2 col-md-3  producto3">
+                    <img src="../imagenes/logo kraken.png" class="card-img-top mx-auto d-block" alt="logo_kraken">
+                    <h5>CARGAR 1L STOUT</h5>
+                    <p>$750</p>
+                </article>
+            </div>
         </section>
     </main>
+    <div class="conte_whatsapp">
+        <a href="https://api.whatsapp.com/send/?phone=5491168459469&text&type=phone_number&app_absent=0">
+            <img src="../imagenes/Boton Whatsapp.png" class="img-fluid" alt="logo_whatsapp">
+        </a>
+    </div>
     <footer>
         <div class="container-fluid">
             <div class="row">
