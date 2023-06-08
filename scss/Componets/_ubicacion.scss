@@ -1,0 +1,23 @@
+.datos_ubicacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    p{
+        color: black;
+        font-family: 'Germania One', cursive;
+        font-size: 1.4rem;
+        padding: 1rem;
+    }
+}
+
+#mapa {
+    width: 3.5rem;
+    height: 6rem;
+}
+
+#reloj {
+    width: 4rem;
+    height: 4rem;
+}

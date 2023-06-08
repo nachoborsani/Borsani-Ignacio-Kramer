@@ -1,169 +1,41 @@
-@import "../scss/reset";
-@import "../scss/variables";
-@import "../scss/btnwhatsapp";
-@import "../scss/general";
-@import "../scss/formulario";
-@import "../scss/navbar";
+@import "../scss/Reset/reset";
+@import "../scss/utilites/variables";
+@import "../scss/Views/mq";
+@import "../scss/Componets/ubicacion";
+@import "../scss/Componets/btnwhatsapp";
+@import "../scss/Componets/general";
+@import "../scss/Componets/formulario";
+@import "../scss/Componets/map";
 @import "../scss/index";
-@import "../scss/carousel";
-
-
-
-/*MAINMENU*/
-
-.producto {
-    border-radius: 10rem;
-    background-color: $cmostaza;
-    padding-top: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-    img {
-        width: 4rem;
-        height: 6rem;
-    }
-
-    h5 {
-        font-family: 'Germania One', cursive;
-        font-size: 1.5rem;
-    }
-}
-
-.producto2 {
-    border-radius: 10rem;
-    background-color: $cmostaza;
-    padding-top: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-    img {
-        width: 4rem;
-        height: 12rem;
-    }
-
-    h5 {
-        font-family: 'Germania One', cursive;
-        font-size: 1.5rem;
-    }
-}
-
-.producto3 {
-    border-radius: 10rem;
-    background-color: $cmostaza;
-    padding-top: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-    img {
-        width: 10rem;
-        height: 10rem;
-    }
-}
-.opcionesmenu {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    list-style: none;
-    text-align: center;
-    justify-content: center;
-
-    li {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: $cmostaza;
-        border: 2px solid #681919;
-        margin: 0.2rem;
-        padding: 0.2rem;
-        border-radius: 2rem;
-    }
-
-    a {
-        text-decoration: none;
-        color: black;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-}
-.titulosmenu{font-family: 'Times New Roman', Times, serif;
-    display: flex;
-align-items: center;
-justify-content: center;}
-
-
-/*MENU TABLET GRANDE*/
-@media screen and (min-width: 768px) {
-    .producto {
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-        img {
-            width: 4rem;
-            height: 6rem;
-        }
-    }
-    
-    .producto2 {
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-        img {
-            width: 6rem;
-            height: 14rem;
-        }
-    }
-    
-    .producto3 {
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-        img {
-            width: 10rem;
-            height: 10rem;
-        }
-    }
-}
+@import "../scss/Componets/carousel";
+@import "../scss/menu";
+@import "../scss/Componets/header";
+@import "../scss/Componets/footer";
+@import "../scss/Componets/index";
 
 
 /*MAINCONTACTO*/
 
 
-#contactomain {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-#contenedor_datos {
+#contenedor_datos{
     display: flex;
     justify-content: center;
-}
-
-#edad {
-    width: 3rem;
 }
 
 ul.redescontacto {
     display: flex;
     padding: 0rem;
     flex-direction: column;
-
     li {
         display: flex;
-
         a {
                 list-style-type: none;
                 text-decoration: none;
                 display: flex;
-
             img {
                 width: 1.5rem;
                 height: 1.5rem;
             }
-
             p {
                 text-decoration: none;
                 color: black;
@@ -178,56 +50,6 @@ ul.redescontacto {
     }
 }
 
-/*CONTACTO CELULAR GRANDE*/
-@media screen and (min-width: 475px) {
-    ul.redescontacto {
-        li {
-            a {
-                img {
-                    width: 2rem;
-                    height: 2rem;
-                }
-
-                p {
-                    font-size: 1.5rem;
-                    padding-left: 1.5rem;
-                    padding-right: 1.5rem;
-                }
-            }
-        }
-    }
-}
-
-
-/*CONTACTO TABLET GRANDE*/
-@media screen and (min-width: 768px) {
-    input {
-        width: 6rem;
-    }
-
-    ul.redescontacto {
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 2rem;
-
-        li {
-            text-align: center;
-
-            a {
-                img {
-                    width: 2rem;
-                    height: 2rem;
-                }
-
-                p {
-                    font-size: 1.4rem;
-                    padding-left: 0.5rem;
-                    padding-right: 0.5rem;
-                }
-            }
-        }
-    }
-
     #contactomain {
         padding-top: 2rem;
         padding-bottom: 8rem;
@@ -237,161 +59,8 @@ ul.redescontacto {
         padding-bottom: 1.5rem;
     }
 
-}
-
-
-/*CONTACTO DESK*/
-@media (min-width: 1200px) {
-
-    #contactomain {
-        padding-top: 3.1rem;
-        padding-bottom: 4.5rem;
-    }
-
-
-    ul.redescontacto {
-        li {
-            a {
-                img {
-                    width: 4rem;
-                    height: 4rem;
-                    border-radius: 1rem;
-                }
-
-                p {
-                    font-size: 2.2rem;
-                }
-            }
-        }
-    }
-}
-
-input {
-    display: inline-block;
-    width: 9rem;
-}
-
-
-
-/*MAINCPROMOCIONES*/
-
-.carousel-control-next,.carousel-control-prev  {
-    filter: invert(100%);
-}
-
-
-
-
-/*MAINUBICACION*/
-.contenedor_ubicacion {
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 5.75rem;
-}
-
-.datos_ubicacion {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: start;
-}
-
-
-.datos_ubicacion div p {
-    display: flex;
-    align-items: center;
-    color: black;
-    font-family: 'Germania One', cursive;
-    list-style-type: none;
-    font-size: 1.8rem;
-}
-
-.datos_ubicacion div img {
-    padding-right: 5rem;
-}
-
-.datos_ubicacion div {
-    display: flex;
-}
-
-#mapa {
-    width: 4rem;
-    height: 6rem;
-}
-
-#reloj {
-    width: 4rem;
-    height: 4rem;
-}
 
 
 
 
 
-/*FOOTER*/
-footer {
-    background-color: rgb(0, 0, 0);
-}
-
-#logosredes a img {
-    width: 2rem !important;
-    height: 2rem !important;
-    border-radius: 2rem !important;
-}
-
-
-#formasdepago {
-    padding-top: 0.2rem;
-
-    h3 {
-        font-family: 'Germania One', cursive;
-        font-size: 1rem;
-        font-weight: 300;
-        text-align: center;
-        color: red;
-    }
-}
-
-#c_formasdepago {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    img {
-        width: 3rem !important;
-        height: 2rem !important;
-    }
-}
-
-#c_sub {
-    padding-top: 0.5rem !important;
-
-    h6 {
-        font-family: 'Germania One', cursive;
-        font-size: 1rem;
-        color: red;
-        text-align: center;
-    }
-
-    form {
-        display: flex;
-        justify-content: center;
-    }
-}
-
-.campo {
-    width: 15rem;
-    height: 2rem;
-}
-
-#derechos {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-
-    p {
-        color: white;
-        text-align: end;
-        font-size: xx-small;
-    }
-}

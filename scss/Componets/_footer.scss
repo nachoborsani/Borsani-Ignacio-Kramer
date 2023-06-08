@@ -1,0 +1,66 @@
+/*derechos reservados*/
+#derechos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    p {
+        color: white;
+        text-align: end;
+        font-size: xx-small;
+    }
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+}
+
+#logosredes a img {
+    width: 2rem !important;
+    height: 2rem !important;
+    border-radius: 2rem !important;
+}
+
+#formasdepago {
+    padding-top: 0.2rem;
+
+    h3 {
+        font-family: 'Germania One', cursive;
+        font-size: 1rem;
+        font-weight: 300;
+        text-align: center;
+        color: red;
+    }
+}
+
+#c_formasdepago {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    img {
+        width: 3rem !important;
+        height: 2rem !important;
+    }
+}
+
+#c_sub {
+    padding-top: 0.5rem !important;
+
+    h6 {
+        font-family: 'Germania One', cursive;
+        font-size: 1rem;
+        color: red;
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.campo {
+    width: 15rem;
+    height: 2rem;
+}

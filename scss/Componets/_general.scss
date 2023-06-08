@@ -1,0 +1,37 @@
+/*MAIN GENERAL*/
+
+main {
+    padding-top: 0.2rem;
+    background-color: $cbeige;
+}
+
+.subtitulos {
+    text-align: center;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 1.5rem;
+    font-weight: 300;
+    display: block;
+}
+
+
+#contactomain {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#frase {
+    text-align: center;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 1rem;
+}
+
+.parrafos {
+    font-family: 'Germania One', cursive;
+    font-size: 0.75rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    p {
+        margin: 0.2rem;
+    }
+}
