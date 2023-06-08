@@ -1,0 +1,22 @@
+/*FORMULARIO*/
+
+#tituloformulario {
+    font-size: 1.5rem;
+}
+
+select {
+    color: black;
+    font-family: 'Germania One', cursive;
+    font-size: 1rem;
+    font-weight: 500;
+
+    option{    color: black;
+        font-family: 'Germania One', cursive;
+        font-size: 2rem;
+        font-weight: 500;}
+}
+
+.botonesformulario input {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}

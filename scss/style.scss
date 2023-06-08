@@ -2,8 +2,10 @@
 @import "../scss/variables";
 @import "../scss/btnwhatsapp";
 @import "../scss/general";
+@import "../scss/formulario";
 @import "../scss/navbar";
 @import "../scss/index";
+@import "../scss/carousel";
 
 
 
@@ -96,7 +98,7 @@ align-items: center;
 justify-content: center;}
 
 
-/*CONTACTO TABLET GRANDE*/
+/*MENU TABLET GRANDE*/
 @media screen and (min-width: 768px) {
     .producto {
         margin-left: 0.5rem;
@@ -153,7 +155,9 @@ ul.redescontacto {
         display: flex;
 
         a {
-            display: flex;
+                list-style-type: none;
+                text-decoration: none;
+                display: flex;
 
             img {
                 width: 1.5rem;
@@ -226,11 +230,7 @@ ul.redescontacto {
 
     #contactomain {
         padding-top: 2rem;
-        padding-bottom: 5rem;
-    }
-
-    #subtitulocontacto {
-        padding-bottom: 3.4rem;
+        padding-bottom: 8rem;
     }
 
     #tituloformulario {
@@ -243,13 +243,9 @@ ul.redescontacto {
 /*CONTACTO DESK*/
 @media (min-width: 1200px) {
 
-    #subtitulocontacto {
-        font-size: 5rem;
-    }
-
     #contactomain {
         padding-top: 3.1rem;
-        padding-bottom: 3rem;
+        padding-bottom: 4.5rem;
     }
 
 
@@ -279,9 +275,12 @@ input {
 
 /*MAINCPROMOCIONES*/
 
-.contenedor_promociones {
-    display: flex;
+.carousel-control-next,.carousel-control-prev  {
+    filter: invert(100%);
 }
+
+
+
 
 /*MAINUBICACION*/
 .contenedor_ubicacion {
@@ -326,35 +325,7 @@ input {
 }
 
 
-/*FORMULARIO*/
 
-#tituloformulario {
-    font-size: 1.5rem;
-}
-
-select {
-    color: black;
-    font-family: 'Germania One', cursive;
-    font-size: 1rem;
-    font-weight: 500;
-}
-
-option {
-    color: black;
-    font-family: 'Germania One', cursive;
-    font-size: 2rem;
-    font-weight: 500;
-}
-
-.botonesformulario input {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-}
-
-.redescontacto li a {
-    list-style-type: none;
-    text-decoration: none;
-}
 
 
 /*FOOTER*/
