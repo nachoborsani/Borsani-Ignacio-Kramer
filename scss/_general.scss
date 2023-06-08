@@ -13,13 +13,11 @@
     text-align: center;
     letter-spacing: 0.5rem;
     -webkit-text-stroke: 0.07rem black;
-}
 
-#titulo2 {
-    display: block;
-    line-height: 1rem;
-    font-size: 1.5rem;
-    padding: 0.5;
+    span{    display: block;
+        line-height: 1rem;
+        font-size: 1.5rem;
+        padding: 0.5;}
 }
 
 .contenedor_logo {
@@ -53,7 +51,7 @@ main {
 .subtitulos {
     text-align: center;
     font-family: 'UnifrakturCook', cursive;
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 300;
     display: block;
 }

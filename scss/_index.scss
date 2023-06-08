@@ -50,12 +50,9 @@
         font-size: 4rem;
         letter-spacing: 0.5rem;
         -webkit-text-stroke: 0.12rem black;
-    }
 
-    #titulo2 {
-        font-size: 2rem;
+        span{font-size: 2rem;}
     }
-
     #frase {
         font-size: 1.5rem;
     }
@@ -75,15 +72,9 @@
         padding-bottom: 4rem;}
     }
 
-
-
-    li .nav-link {
-        padding: 0.2rem !important;
-    }
-
     #piedepagina {
-        padding-top: 1.6rem;
-        padding-bottom: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 0.6rem;
     }
 
     #frase {

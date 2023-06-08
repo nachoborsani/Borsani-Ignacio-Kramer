@@ -9,22 +9,29 @@
 
 /*MAINMENU*/
 
-.producto{
+.producto {
     border-radius: 10rem;
-background-color: $cmostaza;
-padding-top: 1rem;
-margin-top: 0.5rem;
-margin-bottom: 0.5rem;
-display: flex;
-flex-direction: column;
-text-align: center;
-        img{width: 4rem;
-            height: 6rem;}
-        h5{ font-family: 'Germania One', cursive;
-            font-size: 1.5rem;}
+    background-color: $cmostaza;
+    padding-top: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    img {
+        width: 4rem;
+        height: 6rem;
+    }
+
+    h5 {
+        font-family: 'Germania One', cursive;
+        font-size: 1.5rem;
+    }
 }
 
-.producto2{    border-radius: 10rem;
+.producto2 {
+    border-radius: 10rem;
     background-color: $cmostaza;
     padding-top: 1rem;
     margin-top: 0.5rem;
@@ -32,13 +39,20 @@ text-align: center;
     display: flex;
     flex-direction: column;
     text-align: center;
-            img{width: 4rem;
-                height: 12rem;} 
-                h5{ font-family: 'Germania One', cursive;
-                    font-size: 1.5rem;}
+
+    img {
+        width: 4rem;
+        height: 12rem;
     }
 
-.producto3{ border-radius: 10rem;
+    h5 {
+        font-family: 'Germania One', cursive;
+        font-size: 1.5rem;
+    }
+}
+
+.producto3 {
+    border-radius: 10rem;
     background-color: $cmostaza;
     padding-top: 1rem;
     margin-top: 0.5rem;
@@ -46,28 +60,71 @@ text-align: center;
     display: flex;
     flex-direction: column;
     text-align: center;
-            img{width: 10rem;
-                height: 10rem;}
+
+    img {
+        width: 10rem;
+        height: 10rem;
     }
-
-
-.opcionesmenu{ display: grid;
+}
+.opcionesmenu {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     list-style: none;
     text-align: center;
     justify-content: center;
-    li{display: flex;
+
+    li {
+        display: flex;
         justify-content: center;
         align-items: center;
         background-color: $cmostaza;
         border: 2px solid #681919;
         margin: 0.2rem;
         padding: 0.2rem;
-    border-radius: 2rem;}
-a{text-decoration: none;
-color: black;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}}
+        border-radius: 2rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+.titulosmenu{font-family: 'Times New Roman', Times, serif;
+    display: flex;
+align-items: center;
+justify-content: center;}
+
+
+/*CONTACTO TABLET GRANDE*/
+@media screen and (min-width: 768px) {
+    .producto {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        img {
+            width: 4rem;
+            height: 6rem;
+        }
+    }
+    
+    .producto2 {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        img {
+            width: 6rem;
+            height: 14rem;
+        }
+    }
+    
+    .producto3 {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        img {
+            width: 10rem;
+            height: 10rem;
+        }
+    }
+}
 
 
 /*MAINCONTACTO*/
@@ -91,6 +148,7 @@ ul.redescontacto {
     display: flex;
     padding: 0rem;
     flex-direction: column;
+
     li {
         display: flex;
 
@@ -118,14 +176,14 @@ ul.redescontacto {
 
 /*CONTACTO CELULAR GRANDE*/
 @media screen and (min-width: 475px) {
-    ul.redescontacto{
+    ul.redescontacto {
         li {
             a {
                 img {
                     width: 2rem;
                     height: 2rem;
                 }
-    
+
                 p {
                     font-size: 1.5rem;
                     padding-left: 1.5rem;
@@ -142,16 +200,21 @@ ul.redescontacto {
     input {
         width: 6rem;
     }
-    ul.redescontacto{ display: flex;
+
+    ul.redescontacto {
+        display: flex;
         justify-content: space-evenly;
         padding-top: 2rem;
-        li { text-align: center;
+
+        li {
+            text-align: center;
+
             a {
                 img {
                     width: 2rem;
                     height: 2rem;
                 }
-    
+
                 p {
                     font-size: 1.4rem;
                     padding-left: 0.5rem;
@@ -160,17 +223,18 @@ ul.redescontacto {
             }
         }
     }
+
     #contactomain {
         padding-top: 2rem;
         padding-bottom: 5rem;
     }
 
     #subtitulocontacto {
-padding-bottom: 3.4rem;
+        padding-bottom: 3.4rem;
     }
 
     #tituloformulario {
-       padding-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
     }
 
 }
@@ -205,6 +269,7 @@ padding-bottom: 3.4rem;
         }
     }
 }
+
 input {
     display: inline-block;
     width: 9rem;
@@ -303,49 +368,44 @@ footer {
     border-radius: 2rem !important;
 }
 
-#logosredes {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-}
-
 
 #formasdepago {
     padding-top: 0.2rem;
+
+    h3 {
+        font-family: 'Germania One', cursive;
+        font-size: 1rem;
+        font-weight: 300;
+        text-align: center;
+        color: red;
+    }
 }
 
 #c_formasdepago {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
 
-#c_formasdepago img {
-    width: 3rem !important;
-    height: 2rem !important;
-}
-
-#formasdepago h3 {
-    font-family: 'Germania One', cursive;
-    font-size: 1rem;
-    font-weight: 300;
-    text-align: center;
-    color: red;
+    img {
+        width: 3rem !important;
+        height: 2rem !important;
+    }
 }
 
 #c_sub {
     padding-top: 0.5rem !important;
-}
 
-#c_sub h6 {
-    font-family: 'Germania One', cursive;
-    font-size: 1rem;
-    color: red;
-}
+    h6 {
+        font-family: 'Germania One', cursive;
+        font-size: 1rem;
+        color: red;
+        text-align: center;
+    }
 
-#c_sub form {
-    display: flex;
-    justify-content: center;
+    form {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .campo {
@@ -353,20 +413,14 @@ footer {
     height: 2rem;
 }
 
-h6 {
-    text-align: center;
-    color: white;
-}
-
-
 #derechos {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-}
 
-#derechos p {
-    color: white;
-    text-align: end;
-    font-size: xx-small;
+    p {
+        color: white;
+        text-align: end;
+        font-size: xx-small;
+    }
 }
