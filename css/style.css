@@ -4,175 +4,26 @@
   box-sizing: border-box;
 }
 
-.conte_whatsapp {
-  position: fixed;
-  bottom: 10rem;
-  right: 1rem;
-  border-style: dashed;
-  border-radius: 4rem;
-  border-color: red;
-  margin: 10;
-  padding: 10;
+/*CONTACTO CELULAR GRANDE*/
+@media screen and (min-width: 475px) {
+  ul.redescontacto li a img {
+    width: 2rem;
+    height: 2rem;
+  }
+  ul.redescontacto li a p {
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
-.conte_whatsapp:hover {
-  background-color: yellow;
-  opacity: 1;
-}
-.conte_whatsapp img {
-  border-radius: 6rem;
-  display: block;
-  width: 2rem;
-  height: 2rem;
-  padding: 0.4rem;
-  opacity: 0.5;
-  background-color: rgb(47, 190, 47);
-}
-
-/*HEADER*/
-header {
-  background-image: url(/imagenes/Encabezado2.jpg) !important;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-}
-
-/*MAIN GENERAL*/
-main {
-  padding-top: 0.2rem;
-  background-color: rgb(243, 243, 225);
-}
-
-.subtitulos {
-  text-align: center;
-  font-family: "UnifrakturCook", cursive;
-  font-size: 1.5rem;
-  font-weight: 300;
-  display: block;
-}
-
-/*derechos reservados*/
-#derechos {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-#derechos p {
-  color: white;
-  text-align: end;
-  font-size: xx-small;
-}
-
-/*FORMULARIO*/
-#tituloformulario {
-  font-size: 1.5rem;
-}
-
-select {
-  color: black;
-  font-family: "Germania One", cursive;
-  font-size: 1rem;
-  font-weight: 500;
-}
-select option {
-  color: black;
-  font-family: "Germania One", cursive;
-  font-size: 2rem;
-  font-weight: 500;
-}
-
-.botonesformulario input {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-/*MAIN INDEX*/
-#frase {
-  text-align: center;
-  font-family: "UnifrakturCook", cursive;
-  font-size: 1rem;
-}
-
-.parrafos {
-  font-family: "Germania One", cursive;
-  font-size: 0.75rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-.parrafos p {
-  margin: 0.2rem;
-}
-
-.imagenindex {
-  padding: 0.3rem !important;
-}
-.imagenindex img {
-  width: 100%;
-  height: 20rem;
-}
-
-/*MAIN CELULAR GRANDE*/
 @media screen and (max-width: 575px) {
   .imagenindex img {
     width: 18rem;
     height: 18rem;
   }
 }
-/*MAIN TABLET GRANDE*/
-@media screen and (min-width: 767px) {
-  .parrafos {
-    font-size: 1rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .subtitulos {
-    font-size: 3rem;
-  }
-  #titulo {
-    font-size: 4rem;
-    letter-spacing: 0.5rem;
-    -webkit-text-stroke: 0.12rem black;
-  }
-  #titulo span {
-    font-size: 2rem;
-  }
-  #frase {
-    font-size: 1.5rem;
-  }
-  .logo {
-    height: 6rem;
-    border-radius: 8rem;
-  }
-}
-/*MAIN DESK*/
-@media screen and (min-width: 991px) {
-  .imagenindex img {
-    width: 100%;
-    height: 20rem;
-    padding-bottom: 4rem;
-  }
-  #piedepagina {
-    padding-top: 1rem;
-    padding-bottom: 0.6rem;
-  }
-  #frase {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-  }
-  .subtitulos {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-  }
-  .parrafos {
-    font-size: 1.3rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-}
-.carousel-control-next, .carousel-control-prev {
-  filter: invert(100%);
-}
-
 /*MENU TABLET GRANDE*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .producto {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -218,17 +69,61 @@ select option {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
-}
-/*CONTACTO CELULAR GRANDE*/
-@media screen and (min-width: 475px) {
-  ul.redescontacto li a img {
-    width: 2rem;
-    height: 2rem;
+  .parrafos {
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
-  ul.redescontacto li a p {
+  .subtitulos {
+    font-size: 3rem;
+  }
+  #titulo {
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    -webkit-text-stroke: 0.12rem black;
+  }
+  #titulo span {
+    font-size: 2rem;
+  }
+  #frase {
     font-size: 1.5rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+  }
+  .logo {
+    height: 6rem;
+    border-radius: 8rem;
+  }
+}
+/*DESK CHICA*/
+@media screen and (min-width: 991px) {
+  .nav-link {
+    font-size: 0.9rem;
+    font-weight: 300;
+    -webkit-text-stroke: 0.07rem black;
+    background-color: black;
+    border-radius: 70%;
+  }
+  /*INDEX*/
+  .imagenindex img {
+    width: 100%;
+    height: 20rem;
+    padding-bottom: 4rem;
+  }
+  #piedepagina {
+    padding-top: 1rem;
+    padding-bottom: 0.6rem;
+  }
+  #frase {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .subtitulos {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .parrafos {
+    font-size: 1.3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 /*CONTACTO DESK*/
@@ -246,9 +141,149 @@ select option {
     font-size: 2.2rem;
   }
 }
-input {
-  display: inline-block;
-  width: 9rem;
+/*DESK GRANDE*/
+@media screen and (min-width: 1450px) {
+  .nav-link {
+    font-size: 1.5rem;
+    font-weight: 500;
+    -webkit-text-stroke: 0.07rem black;
+  }
+}
+.datos_ubicacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.datos_ubicacion p {
+  color: black;
+  font-family: "Germania One", cursive;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+#mapa {
+  width: 3.5rem;
+  height: 6rem;
+}
+
+#reloj {
+  width: 4rem;
+  height: 4rem;
+}
+
+.conte_whatsapp {
+  position: fixed;
+  bottom: 10rem;
+  right: 1rem;
+  border-style: dashed;
+  border-radius: 4rem;
+  border-color: red;
+  margin: 10;
+  padding: 10;
+}
+.conte_whatsapp:hover {
+  background-color: yellow;
+  opacity: 1;
+}
+.conte_whatsapp img {
+  border-radius: 6rem;
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.4rem;
+  opacity: 0.5;
+  background-color: rgb(47, 190, 47);
+}
+
+/*MAIN GENERAL*/
+main {
+  padding-top: 0.2rem;
+  background-color: rgb(243, 243, 225);
+}
+
+.subtitulos {
+  text-align: center;
+  font-family: "UnifrakturCook", cursive;
+  font-size: 1.5rem;
+  font-weight: 300;
+  display: block;
+}
+
+#contactomain {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#frase {
+  text-align: center;
+  font-family: "UnifrakturCook", cursive;
+  font-size: 1rem;
+}
+
+.parrafos {
+  font-family: "Germania One", cursive;
+  font-size: 0.75rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.parrafos p {
+  margin: 0.2rem;
+}
+
+/*FORMULARIO*/
+#tituloformulario {
+  font-size: 1.5rem;
+}
+
+select {
+  color: black;
+  font-family: "Germania One", cursive;
+  font-size: 1rem;
+  font-weight: 500;
+}
+select option {
+  color: black;
+  font-family: "Germania One", cursive;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.botonesformulario input {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+#edad {
+  width: 3rem;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 30%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.imagenindex {
+  padding: 0.3rem !important;
+}
+.imagenindex img {
+  width: 100%;
+  height: 20rem;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  filter: invert(100%);
 }
 
 .producto, .producto2, .producto3 {
@@ -315,6 +350,12 @@ input {
   justify-content: center;
 }
 
+header {
+  background-image: url(/imagenes/Encabezado2.jpg) !important;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
 #titulo {
   font-family: "Germania One", cursive;
   font-size: 2.2rem;
@@ -375,107 +416,22 @@ input {
   box-shadow: none;
 }
 
-/*NAV TABLET GRANDE*/
-/*DESK CHICA*/
-@media screen and (min-width: 991px) {
-  .nav-link {
-    font-size: 0.9rem;
-    font-weight: 300;
-    -webkit-text-stroke: 0.07rem black;
-    background-color: black;
-    border-radius: 70%;
-  }
-}
 .nav-item {
   padding: 0.1rem;
 }
 
-/*DESK GRANDE*/
-@media screen and (min-width: 1450px) {
-  .nav-link {
-    font-size: 1.5rem;
-    font-weight: 500;
-    -webkit-text-stroke: 0.07rem black;
-  }
-}
-/*MAINCONTACTO*/
-#contactomain {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-#contenedor_datos {
+/*derechos reservados*/
+#derechos {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#derechos p {
+  color: white;
+  text-align: end;
+  font-size: xx-small;
 }
 
-#edad {
-  width: 3rem;
-}
-
-ul.redescontacto {
-  display: flex;
-  padding: 0rem;
-  flex-direction: column;
-}
-ul.redescontacto li {
-  display: flex;
-}
-ul.redescontacto li a {
-  list-style-type: none;
-  text-decoration: none;
-  display: flex;
-}
-ul.redescontacto li a img {
-  width: 1.5rem;
-  height: 1.5rem;
-}
-ul.redescontacto li a p {
-  text-decoration: none;
-  color: black;
-  font-family: "Germania One", cursive;
-  list-style-type: none;
-  font-size: 1rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  text-align: center;
-}
-
-#contactomain {
-  padding-top: 2rem;
-  padding-bottom: 8rem;
-}
-
-#tituloformulario {
-  padding-bottom: 1.5rem;
-}
-
-/*MAINUBICACION*/
-.datos_ubicacion {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-.datos_ubicacion p {
-  color: black;
-  font-family: "Germania One", cursive;
-  font-size: 1.4rem;
-  padding: 1rem;
-}
-
-#mapa {
-  width: 3.5rem;
-  height: 6rem;
-}
-
-#reloj {
-  width: 4rem;
-  height: 4rem;
-}
-
-/*FOOTER*/
 footer {
   background-color: rgb(0, 0, 0);
 }
@@ -524,6 +480,57 @@ footer {
 .campo {
   width: 15rem;
   height: 2rem;
+}
+
+.imagenindex {
+  padding: 0.3rem !important;
+}
+.imagenindex img {
+  width: 100%;
+  height: 20rem;
+}
+
+/*MAINCONTACTO*/
+#contenedor_datos {
+  display: flex;
+  justify-content: center;
+}
+
+ul.redescontacto {
+  display: flex;
+  padding: 0rem;
+  flex-direction: column;
+}
+ul.redescontacto li {
+  display: flex;
+}
+ul.redescontacto li a {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+}
+ul.redescontacto li a img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+ul.redescontacto li a p {
+  text-decoration: none;
+  color: black;
+  font-family: "Germania One", cursive;
+  list-style-type: none;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+}
+
+#contactomain {
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+}
+
+#tituloformulario {
+  padding-bottom: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
