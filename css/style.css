@@ -4,175 +4,6 @@
   box-sizing: border-box;
 }
 
-/*CONTACTO CELULAR GRANDE*/
-@media screen and (min-width: 475px) {
-  ul.redescontacto li a img {
-    width: 2rem;
-    height: 2rem;
-  }
-  ul.redescontacto li a p {
-    font-size: 1.5rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-}
-@media screen and (max-width: 575px) {
-  .imagenindex img {
-    width: 18rem;
-    height: 18rem;
-  }
-}
-/*MENU TABLET GRANDE*/
-@media screen and (min-width: 767px) {
-  .producto {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
-  .producto img {
-    width: 4rem;
-    height: 6rem;
-  }
-  .producto2 {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
-  .producto2 img {
-    width: 6rem;
-    height: 14rem;
-  }
-  .producto3 {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
-  .producto3 img {
-    width: 10rem;
-    height: 10rem;
-  }
-  /*CONTACTO TABLET GRANDE*/
-  input {
-    width: 6rem;
-  }
-  ul.redescontacto {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 2rem;
-  }
-  ul.redescontacto li {
-    text-align: center;
-  }
-  ul.redescontacto li a img {
-    width: 2rem;
-    height: 2rem;
-  }
-  ul.redescontacto li a p {
-    font-size: 1.4rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .parrafos {
-    font-size: 1rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .subtitulos {
-    font-size: 3rem;
-  }
-  #titulo {
-    font-size: 4rem;
-    letter-spacing: 0.5rem;
-    -webkit-text-stroke: 0.12rem black;
-  }
-  #titulo span {
-    font-size: 2rem;
-  }
-  #frase {
-    font-size: 1.5rem;
-  }
-  .logo {
-    height: 6rem;
-    border-radius: 8rem;
-  }
-}
-/*DESK CHICA*/
-@media screen and (min-width: 991px) {
-  .nav-link {
-    font-size: 0.9rem;
-    font-weight: 300;
-    -webkit-text-stroke: 0.07rem black;
-    background-color: black;
-    border-radius: 70%;
-  }
-  /*INDEX*/
-  .imagenindex img {
-    width: 100%;
-    height: 20rem;
-    padding-bottom: 4rem;
-  }
-  #piedepagina {
-    padding-top: 1rem;
-    padding-bottom: 0.6rem;
-  }
-  #frase {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-  }
-  .subtitulos {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-  }
-  .parrafos {
-    font-size: 1.3rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-}
-/*CONTACTO DESK*/
-@media (min-width: 1200px) {
-  #contactomain {
-    padding-top: 3.1rem;
-    padding-bottom: 4.5rem;
-  }
-  ul.redescontacto li a img {
-    width: 4rem;
-    height: 4rem;
-    border-radius: 1rem;
-  }
-  ul.redescontacto li a p {
-    font-size: 2.2rem;
-  }
-}
-/*DESK GRANDE*/
-@media screen and (min-width: 1450px) {
-  .nav-link {
-    font-size: 1.5rem;
-    font-weight: 500;
-    -webkit-text-stroke: 0.07rem black;
-  }
-}
-.datos_ubicacion {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-.datos_ubicacion p {
-  color: black;
-  font-family: "Germania One", cursive;
-  font-size: 1.4rem;
-  padding: 1rem;
-}
-
-#mapa {
-  width: 3.5rem;
-  height: 6rem;
-}
-
-#reloj {
-  width: 4rem;
-  height: 4rem;
-}
-
 .conte_whatsapp {
   position: fixed;
   bottom: 10rem;
@@ -197,39 +28,185 @@
   background-color: rgb(47, 190, 47);
 }
 
-/*MAIN GENERAL*/
-main {
+.carousel-control-next, .carousel-control-prev {
+  filter: invert(100%);
+}
+
+/*CONTACTO CELULAR GRANDE*/
+@media screen and (min-width: 475px) {
+  ul.redescontacto li a img {
+    width: 2rem;
+    height: 2rem;
+  }
+  ul.redescontacto li a p {
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  input {
+    width: 6rem;
+  }
+  ul.redescontacto {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+  }
+  ul.redescontacto li {
+    text-align: center;
+  }
+  ul.redescontacto li a img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .producto {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .producto img {
+    width: 4rem;
+    height: 6rem;
+  }
+  .producto2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .producto2 img {
+    width: 6rem;
+    height: 14rem;
+  }
+  .producto3 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .producto3 img {
+    width: 10rem;
+    height: 10rem;
+  }
+  input {
+    width: 6rem;
+  }
+  #contactomain {
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+  }
+  #tituloformulario {
+    padding-bottom: 1.5rem;
+  }
+  ul.redescontacto {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+  }
+  ul.redescontacto li {
+    text-align: center;
+  }
+  ul.redescontacto li a img {
+    width: 2rem;
+    height: 2rem;
+  }
+  ul.redescontacto li a p {
+    font-size: 1.4rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+/*DESK CHICA*/
+/*CONTACTO DESK*/
+@media (min-width: 1200px) {
+  #contactomain {
+    padding-top: 3.1rem;
+    padding-bottom: 6rem !important;
+  }
+  .nav-link {
+    font-weight: 300;
+    -webkit-text-stroke: 0.07rem black;
+    background-color: black;
+    border-radius: 70%;
+  }
+  ul.redescontacto li a img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+  }
+  ul.redescontacto li a p {
+    font-size: 2.2rem;
+  }
+}
+/*DESK GRANDE*/
+@media screen and (min-width: 1450px) {
+  .nav-link {
+    font-size: 1.5rem;
+    font-weight: 500;
+    -webkit-text-stroke: 0.07rem black;
+  }
+}
+/*derechos reservados*/
+#derechos {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#derechos p {
+  color: white;
+  text-align: end;
+  font-size: xx-small;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+}
+
+#logosredes a img {
+  width: 2rem !important;
+  height: 2rem !important;
+  border-radius: 2rem !important;
+}
+
+#formasdepago {
   padding-top: 0.2rem;
-  background-color: rgb(243, 243, 225);
 }
-
-.subtitulos {
-  text-align: center;
-  font-family: "UnifrakturCook", cursive;
-  font-size: 1.5rem;
-  font-weight: 300;
-  display: block;
-}
-
-#contactomain {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-#frase {
-  text-align: center;
-  font-family: "UnifrakturCook", cursive;
-  font-size: 1rem;
-}
-
-.parrafos {
+#formasdepago h3 {
   font-family: "Germania One", cursive;
-  font-size: 0.75rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+  color: red;
 }
-.parrafos p {
-  margin: 0.2rem;
+
+#c_formasdepago {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#c_formasdepago img {
+  width: 3rem !important;
+  height: 2rem !important;
+}
+
+#c_sub {
+  padding-top: 0.5rem !important;
+}
+#c_sub h6 {
+  font-family: "Germania One", cursive;
+  font-size: 1rem;
+  color: red;
+  text-align: center;
+}
+#c_sub form {
+  display: flex;
+  justify-content: center;
+}
+
+.campo {
+  width: 15rem;
+  height: 2rem;
+}
+
+#piedepagina {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 /*FORMULARIO*/
@@ -259,6 +236,124 @@ select option {
   width: 3rem;
 }
 
+input {
+  display: inline-block;
+  width: 9rem;
+}
+
+/*MAIN GENERAL*/
+main {
+  padding-top: 0.2rem;
+  background-color: rgb(243, 243, 225);
+}
+
+.subtitulos {
+  text-align: center;
+  font-family: "UnifrakturCook", cursive;
+  font-size: 3rem;
+  font-weight: 300;
+  display: block;
+}
+
+#contactomain {
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+
+#frase {
+  text-align: center;
+  font-family: "UnifrakturCook", cursive;
+  font-size: 1rem;
+}
+
+.parrafos {
+  font-family: "Germania One", cursive;
+  font-size: 0.75rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.parrafos p {
+  margin: 0.2rem;
+}
+
+header {
+  background-image: url(/imagenes/Encabezado2.jpg) !important;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+#titulo {
+  font-family: "Germania One", cursive;
+  font-size: 2.2rem;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  -webkit-text-stroke: 0.07rem black;
+}
+#titulo span {
+  display: block;
+  line-height: 1rem;
+  font-size: 1.5rem;
+  padding: 0.5;
+}
+
+.contenedor_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 8rem;
+}
+
+.contenedor_titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link {
+  font-family: "Germania One", cursive;
+  color: red;
+  font-size: 1.2rem;
+  text-align: right;
+  -webkit-text-stroke: 0.06rem rgb(0, 3, 161);
+}
+
+.nav-link:hover {
+  color: yellow !important;
+  opacity: 0.8 !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+  background-color: rgb(202, 10, 10);
+}
+
+.navbar-toggler-icon {
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.nav-item {
+  padding: 0.1rem;
+}
+
+.imagenindex {
+  padding: 0.3rem !important;
+}
+.imagenindex img {
+  width: 100%;
+  height: 20rem;
+}
+
 .map-responsive {
   overflow: hidden;
   padding-bottom: 30%;
@@ -274,16 +369,28 @@ select option {
   position: absolute;
 }
 
-.imagenindex {
-  padding: 0.3rem !important;
+.datos_ubicacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
-.imagenindex img {
-  width: 100%;
-  height: 20rem;
+.datos_ubicacion p {
+  color: black;
+  font-family: "Germania One", cursive;
+  font-size: 1.4rem;
+  padding: 1rem;
 }
 
-.carousel-control-next, .carousel-control-prev {
-  filter: invert(100%);
+#mapa {
+  width: 3.5rem;
+  height: 6rem;
+}
+
+#reloj {
+  width: 4rem;
+  height: 4rem;
 }
 
 .producto, .producto2, .producto3 {
@@ -350,146 +457,7 @@ select option {
   justify-content: center;
 }
 
-header {
-  background-image: url(/imagenes/Encabezado2.jpg) !important;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-}
-
-#titulo {
-  font-family: "Germania One", cursive;
-  font-size: 2.2rem;
-  font-weight: 300;
-  text-align: center;
-  letter-spacing: 0.5rem;
-  -webkit-text-stroke: 0.07rem black;
-}
-#titulo span {
-  display: block;
-  line-height: 1rem;
-  font-size: 1.5rem;
-  padding: 0.5;
-}
-
-.contenedor_logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.logo {
-  width: 100%;
-  height: 3.5rem;
-  border-radius: 8rem;
-}
-
-.contenedor_titulo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.nav-link {
-  font-family: "Germania One", cursive;
-  color: red;
-  font-size: 1.5rem;
-  text-align: right;
-  -webkit-text-stroke: 0.06rem rgb(0, 3, 161);
-}
-
-.nav-link:hover {
-  color: yellow !important;
-  opacity: 0.8 !important;
-}
-
-.navbar-toggler {
-  border: none !important;
-  background-color: rgb(202, 10, 10);
-}
-
-.navbar-toggler-icon {
-  width: 1.2rem !important;
-  height: 1.2rem !important;
-}
-
-.navbar-toggler:focus {
-  box-shadow: none;
-}
-
-.nav-item {
-  padding: 0.1rem;
-}
-
-/*derechos reservados*/
-#derechos {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-#derechos p {
-  color: white;
-  text-align: end;
-  font-size: xx-small;
-}
-
-footer {
-  background-color: rgb(0, 0, 0);
-}
-
-#logosredes a img {
-  width: 2rem !important;
-  height: 2rem !important;
-  border-radius: 2rem !important;
-}
-
-#formasdepago {
-  padding-top: 0.2rem;
-}
-#formasdepago h3 {
-  font-family: "Germania One", cursive;
-  font-size: 1rem;
-  font-weight: 300;
-  text-align: center;
-  color: red;
-}
-
-#c_formasdepago {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-#c_formasdepago img {
-  width: 3rem !important;
-  height: 2rem !important;
-}
-
-#c_sub {
-  padding-top: 0.5rem !important;
-}
-#c_sub h6 {
-  font-family: "Germania One", cursive;
-  font-size: 1rem;
-  color: red;
-  text-align: center;
-}
-#c_sub form {
-  display: flex;
-  justify-content: center;
-}
-
-.campo {
-  width: 15rem;
-  height: 2rem;
-}
-
-.imagenindex {
-  padding: 0.3rem !important;
-}
-.imagenindex img {
-  width: 100%;
-  height: 20rem;
-}
-
+/*MAINMENU*/
 /*MAINCONTACTO*/
 #contenedor_datos {
   display: flex;
@@ -518,19 +486,10 @@ ul.redescontacto li a p {
   color: black;
   font-family: "Germania One", cursive;
   list-style-type: none;
-  font-size: 1rem;
+  font-size: 1.4rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   text-align: center;
-}
-
-#contactomain {
-  padding-top: 2rem;
-  padding-bottom: 8rem;
-}
-
-#tituloformulario {
-  padding-bottom: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

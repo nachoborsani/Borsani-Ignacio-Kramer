@@ -1,47 +1,55 @@
 @import "../scss/Reset/reset";
 @import "../scss/utilites/variables";
-@import "../scss/Views/mq";
-@import "../scss/Componets/ubicacion";
 @import "../scss/Componets/btnwhatsapp";
-@import "../scss/Componets/general";
-@import "../scss/Componets/formulario";
-@import "../scss/Componets/map";
-@import "../scss/Componets/index";
 @import "../scss/Componets/carousel";
-@import "../scss/menu";
-@import "../scss/Componets/header";
+@import "../scss/views/mq";
 @import "../scss/Componets/footer";
+@import "../scss/Componets/formulario";
+@import "../scss/Componets/general";
+@import "../scss/Componets/header";
 @import "../scss/Componets/index";
+@import "../scss/Componets/map";
+@import "../scss/Componets/ubicacion";
+@import "../scss/menu";
+
+
+
+
 
 
 /*MAINCONTACTO*/
 
 
-#contenedor_datos{
+#contenedor_datos {
     display: flex;
     justify-content: center;
 }
+
 
 ul.redescontacto {
     display: flex;
     padding: 0rem;
     flex-direction: column;
+
     li {
         display: flex;
+
         a {
                 list-style-type: none;
                 text-decoration: none;
                 display: flex;
+
             img {
                 width: 1.5rem;
                 height: 1.5rem;
             }
+
             p {
                 text-decoration: none;
                 color: black;
                 font-family: 'Germania One', cursive;
                 list-style-type: none;
-                font-size: 1rem;
+                font-size: 1.4rem;
                 padding-left: 0.5rem;
                 padding-right: 0.5rem;
                 text-align: center;
@@ -50,14 +58,15 @@ ul.redescontacto {
     }
 }
 
-    #contactomain {
-        padding-top: 2rem;
-        padding-bottom: 8rem;
-    }
 
-    #tituloformulario {
-        padding-bottom: 1.5rem;
-    }
+
+
+
+
+
+
+
+
 
 
 

@@ -1,5 +1,6 @@
     /*CONTACTO CELULAR GRANDE*/
-    @media screen and (min-width: 475px) {
+    @media screen and (min-width: 475px) 
+    {
         ul.redescontacto {
             li {
                 a {
@@ -18,181 +19,127 @@
         }
     }
 
-    @media screen and (max-width: 575px) {
-        .imagenindex{
-            img{
-            width: 18rem;
-            height: 18rem;
-        }
-        }
-        }
-
-
-    /*MENU TABLET GRANDE*/
-    @media screen and (min-width: 767px) {
-        .producto {
-            margin-left: 0.5rem;
-            margin-right: 0.5rem;
-
-            img {
-                width: 4rem;
-                height: 6rem;
-            }
-        }
-
-        .producto2 {
-            margin-left: 0.5rem;
-            margin-right: 0.5rem;
-
-            img {
+        @media screen and (min-width: 768px) {
+            input {
                 width: 6rem;
-                height: 14rem;
             }
-        }
-
-        .producto3 {
-            margin-left: 0.5rem;
-            margin-right: 0.5rem;
-
-            img {
-                width: 10rem;
-                height: 10rem;
-            }
-        }
-
-        /*CONTACTO TABLET GRANDE*/
-        input {
-            width: 6rem;
-        }
-
-        ul.redescontacto {
-            display: flex;
-            justify-content: space-evenly;
-            padding-top: 2rem;
-
-            li {
-                text-align: center;
-
-                a {
-                    img {
-                        width: 2rem;
-                        height: 2rem;
-                    }
-
-                    p {
-                        font-size: 1.4rem;
-                        padding-left: 0.5rem;
-                        padding-right: 0.5rem;
+            ul.redescontacto {
+                display: flex;
+                justify-content: space-evenly;
+                padding-top: 2rem;
+                li {
+                    text-align: center;
+                    a {
+                        img {
+                            width: 2rem;
+                            height: 2rem;
+                        }
                     }
                 }
             }
+            .producto {
+                margin-left: 0.5rem;
+                margin-right: 0.5rem;
+
+                img {
+                    width: 4rem;
+                    height: 6rem;
+                }
+            }
+
+            .producto2 {
+                margin-left: 0.5rem;
+                margin-right: 0.5rem;
+
+                img {
+                    width: 6rem;
+                    height: 14rem;
+                }
+            }
+
+            .producto3 {
+                margin-left: 0.5rem;
+                margin-right: 0.5rem;
+
+                img {
+                    width: 10rem;
+                    height: 10rem;
+                }
+            }
+
+            input {
+                width: 6rem;
+            }
+    #contactomain {
+        padding-top: 2rem;
+        padding-bottom: 8rem;
+    }
+
+    #tituloformulario {
+        padding-bottom: 1.5rem;
+    }
+    ul.redescontacto {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 2rem;
+
+        li {
+            text-align: center;
+
+            a {
+                img {
+                    width: 2rem;
+                    height: 2rem;
+                }
+
+                p {
+                    font-size: 1.4rem;
+                    padding-left: 0.5rem;
+                    padding-right: 0.5rem;
+                }
+            }
         }
+    }
+}
 
-        .parrafos {
-            font-size: 1rem;
-            padding-left: 0.5rem;
-            padding-right: 0.5rem;
-        }
-
-        .subtitulos {
-            font-size: 3rem;
-        }
-
-        #titulo {
-            font-size: 4rem;
-            letter-spacing: 0.5rem;
-            -webkit-text-stroke: 0.12rem black;
-
-            span {
+        /*DESK CHICA*/
+        @media screen and (min-width: 991px) {
+            .parrafos {
                 font-size: 2rem;
+                padding-left: 0.5rem;
+                padding-right: 0.5rem;
+            
+                p {
+                    margin: 0.2rem;
+                }
             }
         }
 
-        #frase {
-            font-size: 1.5rem;
-        }
+        /*CONTACTO DESK*/
+        @media (min-width: 1200px) {
 
-        .logo {
-            height: 6rem;
-            border-radius: 8rem;
-        }
-    }
-
-
-    /*DESK CHICA*/
-    @media screen and (min-width: 991px) {
-        .nav-link {
-            font-size: 0.9rem;
-            font-weight: 300;
-            -webkit-text-stroke: 0.07rem black;
-            background-color: black;
-            border-radius: 70%;
-        }
-
-        /*INDEX*/
-        .imagenindex {
-            img {
-                width: 100%;
-                height: 20rem;
-                padding-bottom: 4rem;
+            #contactomain {
+                padding-top: 3.1rem;
+                padding-bottom: 6rem!important;
             }
-        }
 
-        #piedepagina {
-            padding-top: 1rem;
-            padding-bottom: 0.6rem;
-        }
+            ul.redescontacto {
+                li {
+                    a {
+                        img {
+                            width: 4rem;
+                            height: 4rem;
+                            border-radius: 1rem;
+                        }
 
-        #frase {
-            font-size: 1.5rem;
-            margin-top: 1rem;
-        }
-
-        .subtitulos {
-            margin-bottom: 1rem;
-            margin-top: 1rem;
-        }
-
-        .parrafos {
-            font-size: 1.3rem;
-            padding-left: 2rem;
-            padding-right: 2rem;
-        }
-    }
-
-    /*CONTACTO DESK*/
-    @media (min-width: 1200px) {
-
-        #contactomain {
-            padding-top: 3.1rem;
-            padding-bottom: 4.5rem;
-        }
-
-
-        ul.redescontacto {
-            li {
-                a {
-                    img {
-                        width: 4rem;
-                        height: 4rem;
-                        border-radius: 1rem;
-                    }
-
-                    p {
-                        font-size: 2.2rem;
+                        p {
+                            font-size: 2.2rem;
+                        }
                     }
                 }
             }
         }
-    }
 
-
-
-    /*DESK GRANDE*/
-    @media screen and (min-width: 1450px) {
-        .nav-link {
-            font-size: 1.5rem;
-            font-weight: 500;
-            -webkit-text-stroke: 0.07rem black;
-        }
-    }
+        /*DESK GRANDE*/
+        @media screen and (min-width: 1450px) {
+            }
