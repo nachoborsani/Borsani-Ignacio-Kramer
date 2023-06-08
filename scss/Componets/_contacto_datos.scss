@@ -1,0 +1,36 @@
+#contenedor_datos {
+    display: flex;
+    justify-content: center;
+}
+
+
+ul.redescontacto {
+    display: flex;
+    padding: 0rem;
+    flex-direction: column;
+
+    li {
+        display: flex;
+        a {
+                list-style-type: none;
+                text-decoration: none;
+                display: flex;
+
+            img {
+                width: 2rem;
+                height: 2rem;
+            }
+
+            p {
+                text-decoration: none;
+                color: black;
+                font-family: 'Germania One', cursive;
+                list-style-type: none;
+                font-size: 1.4rem;
+                padding-left: 0.5rem;
+                padding-right: 0.5rem;
+                text-align: center;
+            }
+        }
+    }
+}

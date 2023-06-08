@@ -32,116 +32,6 @@
   filter: invert(100%);
 }
 
-/*CONTACTO CELULAR GRANDE*/
-@media screen and (min-width: 475px) {
-  ul.redescontacto li a img {
-    width: 2rem;
-    height: 2rem;
-  }
-  ul.redescontacto li a p {
-    font-size: 1.5rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-}
-@media screen and (min-width: 768px) {
-  input {
-    width: 6rem;
-  }
-  ul.redescontacto {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 2rem;
-  }
-  ul.redescontacto li {
-    text-align: center;
-  }
-  ul.redescontacto li a img {
-    width: 2rem;
-    height: 2rem;
-  }
-  .producto {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
-  .producto img {
-    width: 4rem;
-    height: 6rem;
-  }
-  .producto2 {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
-  .producto2 img {
-    width: 6rem;
-    height: 14rem;
-  }
-  .producto3 {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
-  .producto3 img {
-    width: 10rem;
-    height: 10rem;
-  }
-  input {
-    width: 6rem;
-  }
-  #contactomain {
-    padding-top: 2rem;
-    padding-bottom: 8rem;
-  }
-  #tituloformulario {
-    padding-bottom: 1.5rem;
-  }
-  ul.redescontacto {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 2rem;
-  }
-  ul.redescontacto li {
-    text-align: center;
-  }
-  ul.redescontacto li a img {
-    width: 2rem;
-    height: 2rem;
-  }
-  ul.redescontacto li a p {
-    font-size: 1.4rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-}
-/*DESK CHICA*/
-/*CONTACTO DESK*/
-@media (min-width: 1200px) {
-  #contactomain {
-    padding-top: 3.1rem;
-    padding-bottom: 6rem !important;
-  }
-  .nav-link {
-    font-weight: 300;
-    -webkit-text-stroke: 0.07rem black;
-    background-color: black;
-    border-radius: 70%;
-  }
-  ul.redescontacto li a img {
-    width: 4rem;
-    height: 4rem;
-    border-radius: 1rem;
-  }
-  ul.redescontacto li a p {
-    font-size: 2.2rem;
-  }
-}
-/*DESK GRANDE*/
-@media screen and (min-width: 1450px) {
-  .nav-link {
-    font-size: 1.5rem;
-    font-weight: 500;
-    -webkit-text-stroke: 0.07rem black;
-  }
-}
 /*derechos reservados*/
 #derechos {
   display: flex;
@@ -250,9 +140,10 @@ main {
 .subtitulos {
   text-align: center;
   font-family: "UnifrakturCook", cursive;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 300;
   display: block;
+  padding-top: 0.5rem;
 }
 
 #contactomain {
@@ -274,6 +165,10 @@ main {
 }
 .parrafos p {
   margin: 0.2rem;
+}
+
+.novedades {
+  padding-bottom: 2.5rem;
 }
 
 header {
@@ -318,7 +213,7 @@ header {
 .nav-link {
   font-family: "Germania One", cursive;
   color: red;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: right;
   -webkit-text-stroke: 0.06rem rgb(0, 3, 161);
 }
@@ -329,7 +224,6 @@ header {
 }
 
 .navbar-toggler {
-  border: none !important;
   background-color: rgb(202, 10, 10);
 }
 
@@ -347,7 +241,7 @@ header {
 }
 
 .imagenindex {
-  padding: 0.3rem !important;
+  padding: 0.3rem;
 }
 .imagenindex img {
   width: 100%;
@@ -391,6 +285,10 @@ header {
 #reloj {
   width: 4rem;
   height: 4rem;
+}
+
+.contenedor_ubicacion {
+  padding-top: 2rem;
 }
 
 .producto, .producto2, .producto3 {
@@ -457,8 +355,133 @@ header {
   justify-content: center;
 }
 
-/*MAINMENU*/
-/*MAINCONTACTO*/
+/*CONTACTO CELULAR GRANDE*/
+@media screen and (min-width: 475px) {
+  ul.redescontacto li {
+    justify-content: center;
+  }
+  ul.redescontacto li a p {
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  input {
+    width: 6rem;
+  }
+  ul.redescontacto {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+  }
+  ul.redescontacto li {
+    text-align: center;
+    justify-content: start;
+  }
+  ul.redescontacto li a img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .producto {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .producto img {
+    width: 4rem;
+    height: 6rem;
+  }
+  .producto2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .producto2 img {
+    width: 6rem;
+    height: 14rem;
+  }
+  .producto3 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .producto3 img {
+    width: 10rem;
+    height: 10rem;
+  }
+  #contactomain {
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+  }
+  #tituloformulario {
+    padding-bottom: 1.5rem;
+  }
+  ul.redescontacto {
+    justify-content: space-evenly;
+    padding-top: 2rem;
+  }
+  ul.redescontacto li {
+    text-align: center;
+  }
+  ul.redescontacto li a img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .parrafos {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+/*DESK CHICA*/
+@media screen and (min-width: 992px) {
+  .nav-link {
+    border-radius: 4rem;
+    font-size: 0.8rem;
+    background-color: black;
+    -webkit-text-stroke: 0.04rem rgb(0, 3, 161);
+  }
+  .imagenindex {
+    padding-bottom: 4rem;
+  }
+  .parrafos {
+    font-size: 1.2rem;
+  }
+  .parrafos p {
+    margin: 0.2rem;
+  }
+  #frase {
+    font-size: 1.4rem;
+  }
+}
+/*CONTACTO DESK*/
+@media screen and (min-width: 1200px) {
+  .nav-link {
+    font-size: 1rem;
+  }
+  #contactomain {
+    padding-top: 3.1rem;
+    padding-bottom: 6rem !important;
+  }
+  ul.redescontacto li a img {
+    width: 4rem;
+    height: 4rem;
+  }
+  ul.redescontacto li a p {
+    font-size: 2.2rem;
+  }
+  .parrafos {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+/*DESK GRANDE*/
+@media screen and (min-width: 1450px) {
+  .nav-link {
+    font-size: 1.4rem;
+  }
+  .parrafos, #frase {
+    font-size: 1.3rem;
+  }
+}
 #contenedor_datos {
   display: flex;
   justify-content: center;
@@ -478,8 +501,8 @@ ul.redescontacto li a {
   display: flex;
 }
 ul.redescontacto li a img {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2rem;
+  height: 2rem;
 }
 ul.redescontacto li a p {
   text-decoration: none;

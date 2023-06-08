@@ -1,14 +1,9 @@
     /*CONTACTO CELULAR GRANDE*/
-    @media screen and (min-width: 475px) 
-    {
+    @media screen and (min-width: 475px) {
         ul.redescontacto {
             li {
+                justify-content: center;
                 a {
-                    img {
-                        width: 2rem;
-                        height: 2rem;
-                    }
-
                     p {
                         font-size: 1.5rem;
                         padding-left: 1.5rem;
@@ -19,127 +14,142 @@
         }
     }
 
-        @media screen and (min-width: 768px) {
-            input {
-                width: 6rem;
-            }
-            ul.redescontacto {
-                display: flex;
-                justify-content: space-evenly;
-                padding-top: 2rem;
-                li {
-                    text-align: center;
-                    a {
-                        img {
-                            width: 2rem;
-                            height: 2rem;
-                        }
+    @media screen and (min-width: 768px) {
+        input {
+            width: 6rem;
+        }
+
+        ul.redescontacto {
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 2rem;
+
+            li {
+                text-align: center;
+                justify-content: start;
+                a {
+                    img {
+                        width: 2rem;
+                        height: 2rem;
                     }
                 }
             }
-            .producto {
-                margin-left: 0.5rem;
-                margin-right: 0.5rem;
+        }
 
-                img {
-                    width: 4rem;
-                    height: 6rem;
-                }
+        .producto {
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+
+            img {
+                width: 4rem;
+                height: 6rem;
             }
+        }
 
-            .producto2 {
-                margin-left: 0.5rem;
-                margin-right: 0.5rem;
+        .producto2 {
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
 
-                img {
-                    width: 6rem;
-                    height: 14rem;
-                }
-            }
-
-            .producto3 {
-                margin-left: 0.5rem;
-                margin-right: 0.5rem;
-
-                img {
-                    width: 10rem;
-                    height: 10rem;
-                }
-            }
-
-            input {
+            img {
                 width: 6rem;
+                height: 14rem;
             }
-    #contactomain {
-        padding-top: 2rem;
-        padding-bottom: 8rem;
-    }
+        }
 
-    #tituloformulario {
-        padding-bottom: 1.5rem;
-    }
-    ul.redescontacto {
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 2rem;
+        .producto3 {
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
 
-        li {
-            text-align: center;
+            img {
+                width: 10rem;
+                height: 10rem;
+            }
+        }
+        #contactomain {
+            padding-top: 2rem;
+            padding-bottom: 8rem;
+        }
 
-            a {
-                img {
-                    width: 2rem;
-                    height: 2rem;
-                }
+        #tituloformulario {
+            padding-bottom: 1.5rem;
+        }
 
-                p {
-                    font-size: 1.4rem;
-                    padding-left: 0.5rem;
-                    padding-right: 0.5rem;
+        ul.redescontacto {
+            justify-content: space-evenly;
+            padding-top: 2rem;
+
+            li {
+                text-align: center;
+
+                a {
+                    img {
+                        width: 2rem;
+                        height: 2rem;
+                    }
                 }
             }
         }
-    }
-}
+        .parrafos {
+            font-size: 1rem;
+            padding-top: 0.5rem;
+            padding-bottom: 1.5rem;
 
-        /*DESK CHICA*/
-        @media screen and (min-width: 991px) {
+        }
+    }
+
+    /*DESK CHICA*/
+    @media screen and (min-width: 992px) {
+        .nav-link{
+            border-radius: 4rem;
+            font-size: 0.8rem;
+            background-color: black;
+            -webkit-text-stroke: 0.04rem $cazul;
+        }
+        .imagenindex{
+            padding-bottom: 4rem;}
             .parrafos {
-                font-size: 2rem;
-                padding-left: 0.5rem;
-                padding-right: 0.5rem;
-            
+                font-size: 1.2rem;
                 p {
                     margin: 0.2rem;
                 }
             }
+        #frase{font-size: 1.4rem;}
+    }
+    
+    /*CONTACTO DESK*/
+    @media screen and (min-width: 1200px) {
+        .nav-link{
+            font-size: 1rem;
         }
-
-        /*CONTACTO DESK*/
-        @media (min-width: 1200px) {
-
-            #contactomain {
-                padding-top: 3.1rem;
-                padding-bottom: 6rem!important;
-            }
-
-            ul.redescontacto {
-                li {
-                    a {
-                        img {
-                            width: 4rem;
-                            height: 4rem;
-                            border-radius: 1rem;
-                        }
-
-                        p {
-                            font-size: 2.2rem;
-                        }
+        #contactomain {
+            padding-top: 3.1rem;
+            padding-bottom: 6rem !important;
+        }
+        ul.redescontacto {
+            li {
+                a {
+                    img {
+                        width: 4rem;
+                        height: 4rem;
+                    }
+                    p {
+                        font-size: 2.2rem;
                     }
                 }
             }
         }
+                .parrafos {
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+        }
+    }
 
-        /*DESK GRANDE*/
-        @media screen and (min-width: 1450px) {
-            }
+    /*DESK GRANDE*/
+    @media screen and (min-width: 1450px) {
+        .nav-link{
+            font-size: 1.4rem;
+        }
+        .parrafos,#frase {
+            font-size: 1.3rem;
+        }
+    }
